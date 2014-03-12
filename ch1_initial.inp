@@ -1,0 +1,111 @@
+* CHARMM script to read pdb file
+*
+set paramdir "/home/gns/Charmm/c35b1r1/toppar"
+
+open unit 1 read form name @paramdir/"top_all27_prot_na.rtf"
+read rtf card unit 1
+close unit 1
+
+open unit 1 read form name @paramdir/"par_all27_prot_na.prm"
+read param card unit 1
+close unit 1
+
+prnlev 5
+wrnlev 2
+
+! missing residues 133-137 are modeled as Gly
+READ SEQUENCE CARD
+* CH1 domain of Igg residues 123 - 215
+* missing loop 133-137 modeled based on mouse seq                        
+* 
+93
+THR THR PRO PRO SER VAL TYR PRO LEU ALA PRO GLY SER 
+SER MET VAL THR LEU GLY CYS LEU VAL LYS GLY TYR PHE 
+PRO GLU PRO VAL THR VAL THR TRP ASN SER GLY SER LEU 
+SER SER GLY VAL HSD THR PHE PRO ALA VAL LEU GLN SER 
+ASP LEU TYR THR LEU SER SER SER VAL THR VAL THR SER 
+SER THR TRP PRO SER GLU THR VAL THR CYS ASN VAL ALA 
+HSD PRO ALA SER SER THR LYS VAL ASP LYS LYS ILE VAL 
+PRO ARG
+
+! Read sequence from the pdb coordinate file
+!open read unit 11 card name "ch1.pdb"
+!read sequence pdb unit 11
+
+
+prnlev 6
+generate ch1 warn setup
+!rewind unit 11
+
+! rename atoms to ensure pdb compatibility with charmm
+
+rename atom cd1 select resname ile .and. type cd end
+rename atom oxt select type ot1 end
+rename atom o select ires ?nres .and. type ot2 end
+
+open unit 11 read form name "ch1.pdb"
+read coor pdb offset -122 unit 11 sele segid ch1 end
+close unit 11
+
+print coor sele type oxt end
+
+rename atom cd select resname ile .and. type cd1 end
+rename atom ot1 select type oxt end
+rename atom ot2 select ires ?nres .and. type o end
+
+print coor sele segid ch1 .and. .not. type H* end 
+
+define nonH select .not. hydrogen end
+set nonHatoms = ?nsel
+define missing select .not. hydrogen .and. .not. initialized end
+set missingatoms = ?nsel
+
+Calc fraction = (@nonHatoms - @missingatoms) / @nonHatoms
+! if fraction le 0.8 goto toomanywrong
+
+print coor select missing end
+
+!  Build missing atoms if just a few
+ic param
+ic build
+
+coor init sele type H* end
+
+hbuild
+
+! align system along principal axes of inertia, x largest 
+coor orie mass
+coor stat mass
+coor stat
+
+print coor sele .not. init end
+
+open unit 1 write card name ch1_initial.psf
+write psf unit 1 card
+
+open unit 1 write card name ch1_initial.cor
+write coor unit 1 card
+
+set k 1.0
+cons fix sele .not. resid 11:15 end 
+
+! label minimize
+
+! restrain protein atoms for minimization
+! bestfit restraints used here
+! mass option results in natural freq of oscillation
+define protein sele .not. hydrogen .and. segid ch1  end
+!cons harm bestfit mass force @k select protein .and. resid end
+
+mini sd cutnb 14.0 ctofnb 12.0 -
+        inbfrq 1 nstep 400 step 0.0001 nbscale 0.7
+
+! do adapted basis newton-raphson minimization with avg. gradient tol = 1e-3
+mini abnr cutnb 14.0 ctofnb 12.0 nstep 400 tolgrd 1e-3 nbscale 0.7
+
+
+open unit 1 write card name ch1_mini.cor
+write coor unit 1 card
+
+stop
+

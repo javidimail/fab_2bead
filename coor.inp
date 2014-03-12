@@ -1,0 +1,134 @@
+* Determine position of side chain center of mass
+* and shift CB at this position 
+*
+
+! Open and read amino acid topology file
+
+set paramdir "/home/gns/Charmm/c35b1r1/toppar"
+
+open unit 1 read form name @paramdir/"top_all27_prot_na.rtf"
+read rtf card unit 1
+close unit 1
+
+open unit 1 read form name @paramdir/"par_all27_prot_na.prm"
+read param card unit 1
+close unit 1
+
+prnlev 5
+bomlev -5
+
+open read unit 20 card name "ch1_initial.psf"
+read psf card unit 20
+
+open read unit 21 card name "ch1_mini.cor" 
+read coor card unit 21
+
+! Read coordinates
+read coordinate card unit 21
+close unit 21
+
+! Write output coordinates
+
+open write card unit 21 name ch1_cb.dum.xyz
+
+coor stat
+set nmin 1
+set nmax ?nres
+
+set i @nmin
+!set oldi 0
+!set nexti 0
+!set nextti 0
+ 
+define backbone sele type N .or. type C .or. - 
+	type CA .or. type O .or. type OT* end
+define heavy sele .not. type H* end
+
+label loop_res
+
+if ?selresn .EQ. GLY then set code 0
+if ?selresn .EQ. ALA then set code 1
+if ?selresn .EQ. SER then set code 2
+if ?selresn .EQ. CYS then set code 3
+if ?selresn .EQ. VAL then set code 4
+if ?selresn .EQ. THR then set code 5
+if ?selresn .EQ. ILE then set code 6
+if ?selresn .EQ. PRO then set code 7
+if ?selresn .EQ. MET then set code 8
+if ?selresn .EQ. ASP then set code 9
+if ?selresn .EQ. ASN then set code 10
+if ?selresn .EQ. LEU then set code 11
+if ?selresn .EQ. LYS then set code 12
+if ?selresn .EQ. GLU then set code 13
+if ?selresn .EQ. GLN then set code 14
+if ?selresn .EQ. ARG then set code 15
+if ?selresn .EQ. HSD then set code 16
+if ?selresn .EQ. HIS then set code 16
+if ?selresn .EQ. PHE then set code 17
+if ?selresn .EQ. TYR then set code 18
+if ?selresn .EQ. TRP then set code 19
+if ?selresn .EQ. CYX then set code 20
+
+if code .eq. 0 goto nextres 
+
+print coor sele resid @i .and. heavy .and. .not. backbone end
+coor stat mass sele resid @i .and. heavy .and. .not. backbone end
+
+! process Gly separately due to absence of side chain
+write title unit 21
+* ?xave ?yave ?zave @code
+
+!coor rgyr sele type CA .and. resid @step end
+
+scalar x set ?xave select resid @i .and. type CB end
+scalar y set ?yave select resid @i .and. type CB end
+scalar z set ?zave select resid @i .and. type CB end
+
+if @i eq 1 goto nextres
+else if @i eq @nmax goto nextres
+endif
+
+calc oldi = @i - 1
+calc nexti = @i + 1
+
+! calculate improper dihedral CA CA- CA+ CB for side chain
+quick sele resid @i .and. type CA end -
+	sele resid @oldi .and. type CA end -
+	sele resid @nexti .and. type CA end -
+	sele resid @i .and. type CB end 
+
+if @i eq @nmax - 1 goto nextres
+
+calc nextti = @i + 2
+
+set cbphi ?phi
+
+! calculate backbone dihedral
+ 
+quick sele resid @oldi .and. type CA end -
+        sele resid @i .and. type CA end -
+        sele resid @nexti .and. type CA end -
+        sele resid @nextti .and. type CA end 
+
+set caphi ?phi
+
+label nextres
+
+incr i by 1
+if i le @nmax goto loop_res
+
+! === end frames loop ====
+
+bomlev -5
+
+print coor sele segid CH1 .and. ( type CA .or. type CB ) end
+dele atoms sele .not. ( type CA .or. type CB ) end
+
+open unit 25 write card name ch1_ca_cb.psf
+write psf card unit 25
+
+open unit 26 write card name ch1_ca_cb.cor
+write coor card unit 26
+
+
+stop
