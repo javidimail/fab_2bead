@@ -106,9 +106,20 @@ def writenbfix(array1,array2,statpot,cutoff,nbfix,reportfile):
                               array1[i][1], array2[j][1], '--> emin:', s, '--> E_min:',e_min
 
  print "NBFIX interactios of", array1[0][2], 'and', array2[0][2], "wrote successfully!"             
+#=============================================================
+def writenbonded(array1,array2,prmfile):
+
+ prmfile=open('./nbonded.prm', 'w+')
+ i=0;j=0;m=0;n=0
+ for i in range(len(array1)):print >> prmfile, 'A%i'%(i+1),'0.0','-1e-12','22.7'
+ for j in range(len(array2)):print >> prmfile, 'B%i'%int(array2[j][0]),'0.0','-1e-12','22.7'
+
 #==============================================================
 def writertf(array1,mass1,array2,mass2,topfile):
   i=0;j=0;m=0;n=0;residue="";reslist=[]
+
+  print >> topfile, '* Topology file for a single bead GO model system'
+  print >> topfile, '*', '28 6'
 
   for i in range(len(array1)):
        m=int(array1[i][0])
