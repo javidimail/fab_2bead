@@ -15,7 +15,7 @@ ca=[]; cb=[]; eminb=[]
 
 ca=readcoor('ch1_ca_cb.cor','CA',reportfile) # Extracting CA atoms from coodinate file (6 elements), e.g. [id, residu, 'CA', x, y, z, CH1]
 cb=readcoor('ch1_ca_cb.cor','CB',reportfile) # Same as CA,e.g. [id, residu, 'CB', x, y, z, CH1]
-eminb=reademin('emin.dat',reportfile) # Reading stat potential file
+eminb=reademin('emin_b.dat',reportfile) # Reading stat potential file
 
 nbfix=open('./nbfix.prm','w+') # it opens nbfix.prm to write NBFIX section
 rtf=open('./2bead.rtf','w+') # it opens a file to write the topology file 

@@ -135,3 +135,5 @@ def writertf(array1,mass1,array2,mass2,topfile):
       if residue <> "GLY":print >> topfile, "BOND", "CA", "CB"
 
   print "Topology file is ready to use!"
+
+
