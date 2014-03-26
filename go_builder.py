@@ -28,6 +28,7 @@ writenbfix(ca,ca,eminb,8,nbfix,reportfile) # Writing NBFIX section for CA-CA's w
 writenbfix(cb,cb,eminb,8,nbfix,reportfile) # doing the same for CB-CB's
 writenbfix(cb,ca,eminb,8,nbfix,reportfile) # doing the same for CB-CA's, **** Smaller c, should be first ****
 
+<<<<<<< HEAD
 rtf=open('./ch1_2bead.rtf','w+') # it opens a file to write the topology file 
 writertf(ca,100,cb,200,rtf) # Writing RTF file, MASS CA=100, MASS CB=200
 
@@ -40,3 +41,7 @@ with open('ch1_2bead.prm', 'w') as outfile:
             print >> outfile, '\n', fname2.upper(), '\n'
             for line in infile:
                 outfile.write(line)
+=======
+rtf=open('./2bead.rtf','w+') # it opens a file to write the topology file 
+writertf(ca,100,cb,200,rtf) # Writing RTF file, MASS CA=100, MASS CB=200
+>>>>>>> b271f40c12f635d2bc8f8ff71d0607660a276290

@@ -90,7 +90,11 @@ def writenbfix(array1,array2,statpot,cutoff,nbfix,reportfile):
            
               s = float(statpot[array1[i][6]][array2[j][6]]);
               e_min = round((1.+0.6*abs(s))*(-2.),2);
+<<<<<<< HEAD
               e_min_rep = round(e_min*(2./3.),2);
+=======
+              e_min_rep = round(e_min*(-4./3.),2);
+>>>>>>> b271f40c12f635d2bc8f8ff71d0607660a276290
               dist = round(dist,3);
 
               if s>0: print >> nbfix, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min, dist,'1'
@@ -119,7 +123,11 @@ def writertf(array1,mass1,array2,mass2,topfile):
   i=0;j=0;m=0;n=0;residue="";reslist=[]
 
   print >> topfile, '* Topology file for a single bead GO model system'
+<<<<<<< HEAD
   print >> topfile, '28 6'
+=======
+  print >> topfile, '*', '28 6'
+>>>>>>> b271f40c12f635d2bc8f8ff71d0607660a276290
 
   for i in range(len(array1)):
        m=int(array1[i][0])

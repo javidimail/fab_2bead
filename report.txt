@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 Local current time : Tue Mar 25 23:02:29 2014 
 Computar host name: reza-K42Jc 
 User: reza 
+=======
+Local current time : Tue Mar 25 17:11:58 2014 
+Computar host name: desk16 
+User: javidi 
+>>>>>>> b271f40c12f635d2bc8f8ff71d0607660a276290
 
 
 
