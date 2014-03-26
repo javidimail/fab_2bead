@@ -1,8 +1,8 @@
 PSF CMAP CHEQ
 
        2 !NTITLE
-* 9.541 -5.25958 2.79493 7                                                      
-*  DATE:     3/11/14     15:44:59      CREATED BY USER: gns                     
+*A93 A92 A94 B93 20.0 0.0  26.0136                                              
+*  DATE:     3/26/14     12:36:14      CREATED BY USER: javidi                  
 
      181 !NATOM
        1 CH1  1    THR  CA     22   0.210000       12.0110           0   0.00000     -0.301140E-02

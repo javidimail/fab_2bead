@@ -1,7 +1,7 @@
 * Determine position of side chain center of mass
 * and shift CB at this position 
 *
-
+  
 ! Open and read amino acid topology file
 
 set paramdir "/home/gns/Charmm/c35b1r1/toppar"
@@ -31,6 +31,16 @@ close unit 21
 
 open write card unit 21 name ch1_cb.dum.xyz
 
+
+* Start writing parameters in separat files
+ 
+! Open bond.prm, angel.prm, dihedral.prm and imph.prm
+open write card unit 31 name bond.prm
+open write card unit 32 name angle.prm
+open write card unit 33 name dihedral.prm
+open write card unit 34 name imph.prm
+
+
 coor stat
 set nmin 1
 set nmax ?nres
@@ -46,39 +56,10 @@ define heavy sele .not. type H* end
 
 label loop_res
 
-if ?selresn .EQ. GLY then set code 0
-if ?selresn .EQ. ALA then set code 1
-if ?selresn .EQ. SER then set code 2
-if ?selresn .EQ. CYS then set code 3
-if ?selresn .EQ. VAL then set code 4
-if ?selresn .EQ. THR then set code 5
-if ?selresn .EQ. ILE then set code 6
-if ?selresn .EQ. PRO then set code 7
-if ?selresn .EQ. MET then set code 8
-if ?selresn .EQ. ASP then set code 9
-if ?selresn .EQ. ASN then set code 10
-if ?selresn .EQ. LEU then set code 11
-if ?selresn .EQ. LYS then set code 12
-if ?selresn .EQ. GLU then set code 13
-if ?selresn .EQ. GLN then set code 14
-if ?selresn .EQ. ARG then set code 15
-if ?selresn .EQ. HSD then set code 16
-if ?selresn .EQ. HIS then set code 16
-if ?selresn .EQ. PHE then set code 17
-if ?selresn .EQ. TYR then set code 18
-if ?selresn .EQ. TRP then set code 19
-if ?selresn .EQ. CYX then set code 20
-
-if code .eq. 0 goto nextres 
-
 print coor sele resid @i .and. heavy .and. .not. backbone end
 coor stat mass sele resid @i .and. heavy .and. .not. backbone end
 
 ! process Gly separately due to absence of side chain
-write title unit 21
-* ?xave ?yave ?zave @code
-
-!coor rgyr sele type CA .and. resid @step end
 
 scalar x set ?xave select resid @i .and. type CB end
 scalar y set ?yave select resid @i .and. type CB end
@@ -89,28 +70,77 @@ else if @i eq @nmax goto nextres
 endif
 
 calc oldi = @i - 1
-calc nexti = @i + 1
+calc nexti = @i + 1 
+
+if @i eq @nmax - 1 goto nextres
+
+calc nextti = @i + 2
+ 
+* Calculate parameters and write them into differnt files
+  
+
+! calculate backbone bond length
+quick sele resid @oldi .and. type CA end -
+        sele resid @i .and. type CA end
+set cacadist ?dist
+
+! calcuale CA-CB lenght
+quick sele resid @i .and. type CA end -
+        sele resid @i .and. type CB end
+set cacbdist ?dist
+
+write title unit 31
+*A@oldi A@i 100 @cacadist
+*A@i B@i 100 @cacbdist
+
+
+! calculate CA-CA-CA angle
+quick   sele resid @oldi .and. type CA end -
+        sele resid @i .and. type CA end -
+        sele resid @nexti .and. type CA end
+set cacacaangle ?thet
+
+! calculate CB-CA-CA angle
+quick   sele resid @oldi .and. type CB end -
+        sele resid @oldi .and. type CA end -
+        sele resid @i .and. type CA end
+set cbcacaangle ?thet
+
+! calculate CA-CA-CB angel
+quick   sele resid @oldi .and. type CA end -
+        sele resid @i .and. type CA end -
+        sele resid @i .and. type CB end
+set cacacbangle ?thet
+
+write title unit 32
+*A@oldi A@i A@nexti 12.5 @cacacaangle
+*B@oldi A@oldi A@i 12.5 @cbcacaangle
+*A@oldi A@i B@i 12.5 @cacacbangle
+ 
+! calculate backbone dihedral
+quick sele resid @oldi .and. type CA end -
+        sele resid @i .and. type CA end -
+        sele resid @nexti .and. type CA end -
+        sele resid @nextti .and. type CA end 
+set cacacacaphi ?phi
+
+
+write title unit 33
+*A@oldi A@i A@nexti A@nexti 0.90  3  -66.5
+*A@oldi A@i A@nexti A@nexti 2.27 2  -68.1
+*A@oldi A@i A@nexti A@nexti 2.91 1  -37.3
+ 
 
 ! calculate improper dihedral CA CA- CA+ CB for side chain
 quick sele resid @i .and. type CA end -
 	sele resid @oldi .and. type CA end -
 	sele resid @nexti .and. type CA end -
-	sele resid @i .and. type CB end 
+	sele resid @i .and. type CB end
+set imph ?phi
 
-if @i eq @nmax - 1 goto nextres
-
-calc nextti = @i + 2
-
-set cbphi ?phi
-
-! calculate backbone dihedral
+write title unit 34
+*A@i A@oldi A@nexti B@i 20.0 0.0  @imph
  
-quick sele resid @oldi .and. type CA end -
-        sele resid @i .and. type CA end -
-        sele resid @nexti .and. type CA end -
-        sele resid @nextti .and. type CA end 
-
-set caphi ?phi
 
 label nextres
 

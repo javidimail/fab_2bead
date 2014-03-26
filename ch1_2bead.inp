@@ -1,0 +1,84 @@
+*CHARMM script to read pdb file
+*
+
+set k 0
+
+bomlev -1
+
+open unit 1 read form name ch1_2bead.rtf
+read rtf card unit 1
+close unit 1
+
+open unit 1 read form name ch1_2bead.prm 
+read param card unit 1
+close unit 1
+
+READ SEQUENCE CARD
+* ClpY 
+*
+93    
+P1 P2 P3 P4 P5 P6 P7 P8 P9 P10 P11 P12 P13 P14 P15
+P16 P17 P18 P19 P20 P21 P22 P23 P24 P25 P26 P27 P28 P29 P30 P31
+P32 P33 P34 P35 P36 P37 P38 P39 P40 P41 P42 P43 P44 P45 P46 P47
+P48 P49 P50 P51 P52 P53 P54 P55 P56 P57 P58 P59 P60 P61 P62 P63
+P64 P65 P66 P67 P68 P69 P70 P71 P72 P73 P74 P75 P76 P77 P78 P79
+P80 P81 P82 P83 P84 P85 P86 P87 P88 P89 P90 P91 P92 P93
+
+generate CH1   setup
+
+prnlev 5
+wrnlev 2
+bomlev -2
+
+open unit 11 read card name ch1_ca_cb.cor 
+read coor card unit 11
+close unit 11
+!-------------------------------------------------------------------------
+! print param
+
+! native coordinates should be stored in comparison set
+!	this command should follow immediately after loading native coor
+coor copy comp
+
+scalar fbeta set 1
+set nsteps 2000000
+set timestep 0.015
+set filename eq
+set ntraj 0
+set iseed @iseed
+
+open unit 31 write form name ch1_2bead_@filename_temp@temp.res
+open unit 33 write unform name ch1_2bead_@filename_temp@temp.dcd
+
+! need the eten subroutine which incorporates the modified LJ potential 
+! eten on
+
+! Do Langevin dyanmics
+dyna leap langevin strt nstep @nsteps timestep @timestep -
+   iprfrq 10000 ieqfrq 0 ntrfrq 0 echeck 9999 -
+   iunwri 31 iuncrd 33 iunvel -1 -
+   ihtfrq 0 teminc 0 nprint 10000 nsavc 1000 nsavv 0 ihbfrq 0 inbfrq -1  -
+   ilbfrq 100 rbuffer 0.0 tbath @temp -
+   cutnb 14. ctofnb 12.0  ctonnb 10.  wmin 1.5 atom cdie -
+   firstt @temp.0 finalt @temp noewald iseed @iseed -
+   iasors 0 iasvel 1 iscvel 0 ichecw 0 twindh 0.0 twindl 0.0
+
+coor orie norot
+
+open unit 1 write card name ch1_2bead_@filename_temp@temp.cor
+write coor unit 1 card
+
+coor orie rms sele resid 1:10 .or. resid 16:93 end
+coor rms sele resid 1:10 .or. resid 16:93 end
+coor rgyr
+
+open unit 2 write card name ch1_2bead.psf
+write psf unit 2 card
+
+! the write title command works only with an opened output file
+! this is not needed here as only one result is printed
+! for future reference: data output should only include tab separated numbers
+! for easy plotting; header or text lines should include commenting symbols
+! eg "#" for xmgrace 
+
+stop
