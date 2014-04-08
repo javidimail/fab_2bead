@@ -182,10 +182,9 @@ MASS 179 B91 200
 MASS 180 B92 200
 MASS 181 B93 200
 
-DECL -CA
-DECL +CA
+DECL -CA ! '-'=preceding atom
+DECL +CA ! '+'=next atom
 DECL #CA ! '#'=second next atom
-
 
 AUTOGENERATE ANGLES DIHEDRAL
 

@@ -130,7 +130,7 @@ def writertf(array1,mass1,array2,mass2,topfile):
  
   print >> topfile, "\nDECL -CA" 
   print >> topfile, "DECL +CA" 
-
+  print >> topfile, "DECL #CA ! '#'=second next atom\n"
   print >> topfile, "\nAUTOGENERATE ANGLES DIHEDRAL" 
 
   for i in range(len(array1)):
@@ -141,7 +141,6 @@ def writertf(array1,mass1,array2,mass2,topfile):
       print >> topfile, "ATOM", "CA", "A%i" %m, "0.00"
       if residue <> "GLY":print >> topfile, "ATOM", "CB", "B%i" %m, "0.00" #GLY does NOT contain CB
       if i<len(array1)-1:print >> topfile, "BOND", "CA", "+CA"
-      else:print >> topfile, "BOND", "CA", "-CA"
       if residue <> "GLY":print >> topfile, "BOND", "CA", "CB"
 
   print "Topology file is ready to use!"
