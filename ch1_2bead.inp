@@ -9,7 +9,7 @@ open unit 1 read form name ch1_2bead.rtf
 read rtf card unit 1
 close unit 1
 
-open unit 1 read form name ch1_2bead.prm 
+open unit 1 read form name ch1_2bead.prm2 
 read param card unit 1
 close unit 1
 
@@ -24,18 +24,23 @@ P48 P49 P50 P51 P52 P53 P54 P55 P56 P57 P58 P59 P60 P61 P62 P63
 P64 P65 P66 P67 P68 P69 P70 P71 P72 P73 P74 P75 P76 P77 P78 P79
 P80 P81 P82 P83 P84 P85 P86 P87 P88 P89 P90 P91 P92 P93
 
-open unit 11 read card name ch1_ca_cb.cor 
-read coor card unit 11
-close unit 11
-
-generate PROT  setup
+generate CH1 setup
 
 prnlev 5
 wrnlev 2
 bomlev -2
 
+open unit 11 read card name ch1_ca_cb.cor 
+read coor card unit 11
+close unit 11
+
+print coor sele all end
+
 open unit 2 write card name ch1_2bead.psf
 write psf unit 2 card
+
+open unit 3 write card name ch1_2bead_initial.cor
+write coor unit 3 card
 
 !-------------------------------------------------------------------------
 ! print param
