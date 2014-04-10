@@ -33,7 +33,7 @@ rtf=open('./ch1_2bead.rtf','w+') # it opens a file to write the topology file
 writertf(ca,100,cb,200,rtf) # Writing RTF file, MASS CA=100, MASS CB=200
 
 # Merge all parts of parameter file
-prmfiles = ['angle.prm', 'dihedral.prm','improper.prm','nbonded.prm','nbfix.prm', 'nbfix.prm']
+prmfiles = ['bond.prm', 'angle.prm', 'dihedral.prm','improper.prm','nbonded.prm','nbfix.prm']
 with open('ch1_2bead.prm', 'w') as outfile:
     for fname in prmfiles:
         with open(fname, 'rb') as infile:
@@ -41,7 +41,4 @@ with open('ch1_2bead.prm', 'w') as outfile:
             print >> outfile, '\n', fname2.upper(), '\n'
             for line in infile:
               outfile.write(line)
-      
-#=======
-rtf=open('./2bead.rtf','w+') # it opens a file to write the topology file 
-writertf(ca,100,cb,200,rtf) # Writing RTF file, MASS CA=100, MASS CB=200
+

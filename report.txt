@@ -1,4 +1,4 @@
-Local current time : Wed Apr  9 23:06:18 2014 
+Local current time : Thu Apr 10 01:14:23 2014 
 Computar host name: reza-K42Jc 
 User: reza 
 
@@ -207,12 +207,12 @@ emin_b.dat values:
 -0.20 -0.03 0.13 -0.09 0.04 0.10 0.21 0.12 0.08 0.14 0.22 0.18 -0.04 0.00 0.14 0.02 -0.05 -0.12 -0.14 -0.01
 -0.01 0.07 0.14 -0.18 -0.08 0.04 0.05 -0.07 -0.16 0.15 0.18 -0.08 0.36 0.00 0.26 0.09 0.08 0.62 0.16 0.37
 0.10 0.24 0.09 0.28 0.39 0.02 0.55 0.13 0.32 -0.24 -0.04 0.36 -0.31 -0.19 -0.15 0.25 -0.46 -1.01 0.38 -0.87
-0.00 0.00 -0.06 0.00 0.00 0.00 0.00 0.00 0.00 -0.14 0.00 0.00 -0.19 -0.22 -0.19 -1.04 -0.20 0.04 21.28 0.45
+0.00 0.00 -0.06 0.00 0.00 0.00 0.00 0.00 0.00 -0.14 0.00 0.00 -0.19 -0.22 -0.19 -1.04 -0.20 0.04 -1.28 0.45
 0.10 0.15 0.13 0.09 0.25 0.00 0.35 0.17 0.32 -0.19 0.14 0.26 -0.15 -0.19 0.11 -0.25 0.14 0.12 -0.20 0.10
 0.14 0.27 0.12 0.32 0.17 0.00 0.18 -0.02 0.17 -0.91 0.02 0.09 0.25 -1.04 -0.25 0.13 -0.12 -0.71 0.50 -0.75
 0.20 0.21 0.25 0.04 0.17 0.00 0.14 -0.05 -0.01 -0.08 -0.05 0.08 -0.46 -0.20 0.14 -0.12 0.22 -0.22 0.26 -0.11
 0.17 0.30 0.01 0.38 0.66 0.00 0.54 0.25 0.62 0.27 -0.12 0.62 -1.01 0.04 0.12 -0.71 -0.22 0.48 0.11 0.34
-0.12 0.20 0.10 0.35 0.16 0.00 0.21 0.12 0.22 -0.69 -0.14 0.16 0.38 21.28 -0.20 0.50 0.26 0.11 -0.40 -0.16
+0.12 0.20 0.10 0.35 0.16 0.00 0.21 0.12 0.22 -0.69 -0.14 0.16 0.38 -1.28 -0.20 0.50 0.26 0.11 -0.40 -0.16
 0.48 0.43 0.10 0.46 0.41 0.00 0.38 0.26 0.24 0.40 -0.01 0.37 -0.87 0.45 0.10 -0.75 -0.11 0.34 -0.16 -0.15
 
 Converting residue types to codes ...
@@ -229,674 +229,701 @@ Nomber of converted residues to code:
 
 Detailed version of NBFIX section between atoms of CA and CA :
 
-A1 A25 -2.0 7.365 0 THR TYR --> emin: 0.0 --> E_min: -2.0
-A1 A26 -2.0 5.261 0 THR PHE --> emin: 0.0 --> E_min: -2.0
-A1 A27 -2.2 5.782 1 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
-A1 A81 -2.06 7.059 1 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
-A1 A82 -2.7 7.061 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-A2 A24 -2.73 7.639 1 THR GLY 5 0 --> emin: 0.61 --> E_min: -2.73
-A2 A25 -2.0 5.191 0 THR TYR --> emin: 0.0 --> E_min: -2.0
-A2 A26 -2.0 5.32 0 THR PHE --> emin: 0.0 --> E_min: -2.0
-A2 A27 -2.2 7.363 1 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
-A2 A82 -2.7 7.06 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-A3 A24 -2.6 7.389 1 PRO GLY 7 0 --> emin: 0.5 --> E_min: -2.6
-A3 A25 -2.14 4.995 1 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
-A3 A26 -2.3 7.114 1 PRO PHE 7 17 --> emin: 0.25 --> E_min: -2.3
-A3 A79 -1.37 6.865 -1 PRO HSD --> emin: -0.05 --> E_min_rep: -1.37
-A3 A82 -2.3 6.459 1 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
-A3 A84 -2.2 6.739 1 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
-A4 A22 -2.22 5.841 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-A4 A23 -2.16 5.397 1 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
-A4 A24 -2.6 5.355 1 PRO GLY 7 0 --> emin: 0.5 --> E_min: -2.6
-A4 A25 -2.14 4.297 1 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
-A4 A26 -2.3 7.885 1 PRO PHE 7 17 --> emin: 0.25 --> E_min: -2.3
-A4 A79 -1.37 7.53 -1 PRO HSD --> emin: -0.05 --> E_min_rep: -1.37
-A5 A21 -2.17 7.705 1 SER LEU 2 11 --> emin: 0.14 --> E_min: -2.17
-A5 A22 -2.65 5.563 1 SER VAL 2 4 --> emin: 0.54 --> E_min: -2.65
-A5 A23 -2.11 5.34 1 SER LYS 2 12 --> emin: 0.09 --> E_min: -2.11
-A5 A24 -2.78 6.811 1 SER GLY 2 0 --> emin: 0.65 --> E_min: -2.78
-A5 A25 -2.12 7.557 1 SER TYR 2 18 --> emin: 0.1 --> E_min: -2.12
-A6 A20 -1.74 6.907 -1 VAL CYS --> emin: -0.51 --> E_min_rep: -1.74
-A6 A21 -1.4 5.526 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-A6 A22 -1.91 4.731 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-A6 A23 -2.47 6.619 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-A6 A77 -1.91 7.48 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-A6 A86 -1.91 7.283 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-A6 A88 -2.47 6.827 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-A7 A20 -2.42 5.998 1 TYR CYS 18 3 --> emin: 0.35 --> E_min: -2.42
-A7 A21 -2.19 4.993 1 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
-A7 A22 -2.19 6.665 1 TYR VAL 18 4 --> emin: 0.16 --> E_min: -2.19
-A7 A88 -2.46 7.166 1 TYR LYS 18 12 --> emin: 0.38 --> E_min: -2.46
-A8 A19 -2.6 6.626 1 PRO GLY 7 0 --> emin: 0.5 --> E_min: -2.6
-A8 A20 -1.49 5.279 -1 PRO CYS --> emin: -0.19 --> E_min_rep: -1.49
-A8 A21 -1.39 6.569 -1 PRO LEU --> emin: -0.07 --> E_min_rep: -1.39
-A8 A75 -1.49 7.813 -1 PRO CYS --> emin: -0.19 --> E_min_rep: -1.49
-A8 A88 -2.16 6.295 1 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
-A8 A89 -2.16 6.962 1 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
-A8 A90 -2.23 5.393 1 PRO ILE 7 6 --> emin: 0.19 --> E_min: -2.23
-A8 A91 -2.22 7.757 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-A9 A18 -1.4 5.665 -1 LEU LEU --> emin: -0.08 --> E_min_rep: -1.4
-A9 A19 -1.34 4.918 -1 LEU GLY --> emin: -0.01 --> E_min_rep: -1.34
-A9 A20 -1.48 5.599 -1 LEU CYS --> emin: -0.18 --> E_min_rep: -1.48
-A9 A21 -1.4 7.238 -1 LEU LEU --> emin: -0.08 --> E_min_rep: -1.4
-A9 A90 -2.06 6.601 1 LEU ILE 11 6 --> emin: 0.05 --> E_min: -2.06
-A10 A17 -2.06 7.787 1 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
-A10 A18 -2.08 5.171 1 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
-A10 A19 -2.74 6.827 1 ALA GLY 1 0 --> emin: 0.62 --> E_min: -2.74
-A10 A90 -2.18 6.194 1 ALA ILE 1 6 --> emin: 0.15 --> E_min: -2.18
-A10 A91 -2.1 6.632 1 ALA VAL 1 4 --> emin: 0.08 --> E_min: -2.1
-A10 A92 -2.58 6.365 1 ALA PRO 1 7 --> emin: 0.48 --> E_min: -2.58
-A10 A93 -2.32 7.511 1 ALA ARG 1 15 --> emin: 0.27 --> E_min: -2.32
-A11 A17 -2.2 7.884 1 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
-A11 A18 -1.39 7.003 -1 PRO LEU --> emin: -0.07 --> E_min_rep: -1.39
-A11 A92 -2.18 7.637 1 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
-A11 A93 -1.35 7.441 -1 PRO ARG --> emin: -0.02 --> E_min_rep: -1.35
-A12 A92 -2.6 7.951 1 GLY PRO 0 7 --> emin: 0.5 --> E_min: -2.6
-A12 A93 -2.17 6.41 1 GLY ARG 0 15 --> emin: 0.14 --> E_min: -2.17
-A14 A65 -2.72 7.183 1 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
-A15 A62 -2.17 7.775 1 MET THR 8 5 --> emin: 0.14 --> E_min: -2.17
-A15 A63 -1.55 7.957 -1 MET VAL --> emin: -0.27 --> E_min_rep: -1.55
-A15 A64 -2.17 7.165 1 MET THR 8 5 --> emin: 0.14 --> E_min: -2.17
-A15 A65 -2.17 5.939 1 MET SER 8 2 --> emin: 0.14 --> E_min: -2.17
-A16 A62 -1.88 5.513 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-A16 A63 -1.91 5.7 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-A16 A64 -1.88 6.084 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-A16 A65 -2.65 5.481 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-A16 A68 -2.49 7.742 1 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
-A17 A60 -2.7 6.594 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-A17 A61 -1.88 5.599 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-A17 A62 -2.36 4.227 1 THR THR 5 5 --> emin: 0.3 --> E_min: -2.36
-A17 A63 -1.88 6.428 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-A18 A60 -2.17 5.756 1 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
-A18 A61 -1.4 5.576 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-A18 A62 -2.05 6.485 1 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
-A18 A90 -2.06 7.379 1 LEU ILE 11 6 --> emin: 0.05 --> E_min: -2.06
-A19 A58 -2.78 6.923 1 GLY SER 0 2 --> emin: 0.65 --> E_min: -2.78
-A19 A59 -2.78 5.352 1 GLY SER 0 2 --> emin: 0.65 --> E_min: -2.78
-A19 A60 -2.78 4.006 1 GLY SER 0 2 --> emin: 0.65 --> E_min: -2.78
-A19 A61 -2.6 5.937 1 GLY VAL 0 4 --> emin: 0.5 --> E_min: -2.6
-A19 A75 -2.28 7.837 1 GLY CYS 0 3 --> emin: 0.23 --> E_min: -2.28
-A20 A58 -2.44 5.427 1 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
-A20 A59 -2.44 5.104 1 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
-A20 A60 -2.44 6.363 1 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
-A20 A75 -1.93 6.522 -1 CYS CYS --> emin: -0.74 --> E_min_rep: -1.93
-A21 A56 -2.05 7.485 1 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
-A21 A57 -1.4 6.217 -1 LEU LEU --> emin: -0.08 --> E_min_rep: -1.4
-A21 A58 -2.17 4.82 1 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
-A21 A59 -2.17 6.935 1 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
-A22 A56 -1.88 5.753 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-A22 A57 -1.4 5.474 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-A22 A58 -2.65 6.295 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-A22 A77 -1.91 7.8 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-A23 A54 -2.43 7.891 1 LYS LEU 12 11 --> emin: 0.36 --> E_min: -2.43
-A23 A55 -2.46 6.365 1 LYS TYR 12 18 --> emin: 0.38 --> E_min: -2.46
-A23 A56 -2.02 4.373 1 LYS THR 12 5 --> emin: 0.02 --> E_min: -2.02
-A23 A57 -2.43 6.461 1 LYS LEU 12 11 --> emin: 0.36 --> E_min: -2.43
-A24 A51 -2.12 7.945 1 GLY GLN 0 14 --> emin: 0.1 --> E_min: -2.12
-A24 A54 -1.34 4.781 -1 GLY LEU --> emin: -0.01 --> E_min_rep: -1.34
-A24 A55 -2.14 5.129 1 GLY TYR 0 18 --> emin: 0.12 --> E_min: -2.14
-A24 A56 -2.73 5.636 1 GLY THR 0 5 --> emin: 0.61 --> E_min: -2.73
-A25 A54 -2.19 5.301 1 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
-A25 A55 -1.65 5.202 -1 TYR TYR --> emin: -0.4 --> E_min_rep: -1.65
-A25 A56 -2.0 6.944 0 TYR THR --> emin: 0.0 --> E_min: -2.0
-A26 A53 -2.32 7.233 1 PHE ASP 17 9 --> emin: 0.27 --> E_min: -2.32
-A26 A54 -2.74 4.862 1 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
-A26 A55 -2.13 5.739 1 PHE TYR 17 18 --> emin: 0.11 --> E_min: -2.13
-A27 A81 -2.58 6.166 1 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
-A28 A48 -2.0 7.76 0 GLU ALA --> emin: 0.0 --> E_min: -2.0
-A28 A55 -27.54 6.628 1 GLU TYR 13 18 --> emin: 21.28 --> E_min: -27.54
-A29 A79 -1.37 6.559 -1 PRO HSD --> emin: -0.05 --> E_min_rep: -1.37
-A29 A80 -2.18 6.973 1 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
-A29 A81 -2.58 7.032 1 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
-A30 A77 -1.91 7.05 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-A30 A78 -2.1 5.789 1 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
-A30 A79 -2.2 4.937 1 VAL HSD 4 16 --> emin: 0.17 --> E_min: -2.2
-A30 A80 -2.22 7.002 1 VAL PRO 4 7 --> emin: 0.18 --> E_min: -2.22
-A31 A76 -2.12 7.68 1 THR ASN 5 10 --> emin: 0.1 --> E_min: -2.12
-A31 A77 -1.88 5.649 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-A31 A78 -2.06 5.2 1 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
-A31 A79 -2.0 6.784 0 THR HSD --> emin: 0.0 --> E_min: -2.0
-A32 A45 -1.88 7.501 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-A32 A59 -2.65 7.303 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-A32 A75 -1.74 6.701 -1 VAL CYS --> emin: -0.51 --> E_min_rep: -1.74
-A32 A76 -2.05 5.219 1 VAL ASN 4 10 --> emin: 0.04 --> E_min: -2.05
-A32 A77 -1.91 4.672 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-A32 A78 -2.1 6.627 1 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
-A33 A37 -2.73 4.959 1 THR GLY 5 0 --> emin: 0.61 --> E_min: -2.73
-A33 A39 -2.05 7.5 1 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
-A33 A40 -2.7 7.296 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-A33 A75 -1.72 6.09 -1 THR CYS --> emin: -0.48 --> E_min_rep: -1.72
-A33 A76 -2.12 4.969 1 THR ASN 5 10 --> emin: 0.1 --> E_min: -2.12
-A33 A77 -1.88 6.885 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-A34 A38 -2.12 6.838 1 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
-A34 A39 -2.44 5.166 1 TRP LEU 19 11 --> emin: 0.37 --> E_min: -2.44
-A34 A40 -2.12 6.674 1 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
-A34 A61 -2.49 7.653 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-A34 A73 -2.49 7.042 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-A34 A74 -2.0 5.3 0 TRP THR --> emin: 0.0 --> E_min: -2.0
-A34 A75 -2.55 4.839 1 TRP CYS 19 3 --> emin: 0.46 --> E_min: -2.55
-A34 A76 -1.34 5.721 -1 TRP ASN --> emin: -0.01 --> E_min_rep: -1.34
-A35 A39 -2.22 5.546 1 ASN LEU 10 11 --> emin: 0.18 --> E_min: -2.22
-A35 A73 -2.05 6.304 1 ASN VAL 10 4 --> emin: 0.04 --> E_min: -2.05
-A35 A74 -2.12 5.063 1 ASN THR 10 5 --> emin: 0.1 --> E_min: -2.12
-A35 A75 -1.41 6.615 -1 ASN CYS --> emin: -0.09 --> E_min_rep: -1.41
-A35 A76 -2.26 6.828 1 ASN ASN 10 10 --> emin: 0.22 --> E_min: -2.26
-A36 A74 -2.7 7.922 1 SER THR 2 5 --> emin: 0.58 --> E_min: -2.7
-A36 A76 -2.16 6.435 1 SER ASN 2 10 --> emin: 0.13 --> E_min: -2.16
-A41 A61 -2.65 7.473 1 SER VAL 2 4 --> emin: 0.54 --> E_min: -2.65
-A41 A62 -2.7 7.848 1 SER THR 2 5 --> emin: 0.58 --> E_min: -2.7
-A42 A60 -2.78 7.56 1 GLY SER 0 2 --> emin: 0.65 --> E_min: -2.78
-A42 A61 -2.6 5.163 1 GLY VAL 0 4 --> emin: 0.5 --> E_min: -2.6
-A42 A62 -2.73 4.816 1 GLY THR 0 5 --> emin: 0.61 --> E_min: -2.73
-A42 A63 -2.6 6.82 1 GLY VAL 0 4 --> emin: 0.5 --> E_min: -2.6
-A43 A59 -2.65 6.834 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-A43 A60 -2.65 5.308 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-A43 A61 -1.91 4.178 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-A43 A62 -1.88 6.451 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-A44 A59 -2.3 5.346 1 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
-A44 A60 -2.3 5.054 1 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
-A44 A61 -2.2 6.463 1 HSD VAL 16 4 --> emin: 0.17 --> E_min: -2.2
-A45 A57 -2.05 7.724 1 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
-A45 A58 -2.7 6.069 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-A45 A59 -2.7 4.003 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-A45 A60 -2.7 6.355 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-A46 A57 -2.74 6.085 1 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
-A46 A58 -2.01 5.541 1 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
-A46 A59 -2.01 5.964 1 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
-A47 A57 -1.39 6.35 -1 PRO LEU --> emin: -0.07 --> E_min_rep: -1.39
-A47 A58 -2.3 7.923 1 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
-A48 A55 -2.24 6.083 1 ALA TYR 1 18 --> emin: 0.2 --> E_min: -2.24
-A48 A56 -2.06 5.378 1 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
-A48 A57 -2.08 4.281 1 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
-A48 A58 -2.17 7.495 1 ALA SER 1 2 --> emin: 0.14 --> E_min: -2.17
-A49 A55 -2.19 5.752 1 VAL TYR 4 18 --> emin: 0.16 --> E_min: -2.19
-A49 A56 -1.88 5.667 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-A49 A57 -1.4 6.377 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-A50 A54 -1.4 5.658 -1 LEU LEU --> emin: -0.08 --> E_min_rep: -1.4
-A50 A55 -2.19 4.345 1 LEU TYR 11 18 --> emin: 0.16 --> E_min: -2.19
-A50 A56 -2.05 6.278 1 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
-A51 A55 -1.49 5.792 -1 GLN TYR --> emin: -0.2 --> E_min_rep: -1.49
-A51 A56 -2.0 6.638 0 GLN THR --> emin: 0.0 --> E_min: -2.0
-A63 A67 -1.88 7.081 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-A63 A68 -2.49 7.019 1 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
-A64 A68 -2.0 6.704 0 THR TRP --> emin: 0.0 --> E_min: -2.0
-A66 A70 -2.72 7.363 1 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
-A67 A71 -2.0 5.631 0 THR GLU --> emin: 0.0 --> E_min: -2.0
-A68 A72 -2.0 7.04 0 TRP THR --> emin: 0.0 --> E_min: -2.0
-A68 A73 -2.49 6.836 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-A69 A91 -2.22 7.18 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-A69 A92 -2.18 6.46 1 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
-A72 A89 -2.02 7.134 1 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
-A72 A90 -2.34 7.654 1 THR ILE 5 6 --> emin: 0.28 --> E_min: -2.34
-A73 A89 -2.47 6.17 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-A73 A90 -1.71 5.92 -1 VAL ILE --> emin: -0.47 --> E_min_rep: -1.71
-A74 A87 -2.12 6.584 1 THR ASP 5 9 --> emin: 0.1 --> E_min: -2.12
-A74 A88 -2.02 5.818 1 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
-A74 A89 -2.02 4.714 1 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
-A74 A90 -2.34 5.977 1 THR ILE 5 6 --> emin: 0.28 --> E_min: -2.34
-A75 A87 -1.54 5.805 -1 CYS ASP --> emin: -0.26 --> E_min_rep: -1.54
-A75 A88 -2.34 5.319 1 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
-A75 A89 -2.34 6.505 1 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
-A75 A90 -1.73 7.366 -1 CYS ILE --> emin: -0.49 --> E_min_rep: -1.73
-A76 A85 -1.37 7.514 -1 ASN LYS --> emin: -0.04 --> E_min_rep: -1.37
-A76 A86 -2.05 6.127 1 ASN VAL 10 4 --> emin: 0.04 --> E_min: -2.05
-A76 A87 -2.17 4.917 1 ASN ASP 10 9 --> emin: 0.14 --> E_min: -2.17
-A76 A88 -1.37 6.823 -1 ASN LYS --> emin: -0.04 --> E_min_rep: -1.37
-A77 A85 -2.47 5.759 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-A77 A86 -1.91 5.211 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-A77 A87 -1.64 6.401 -1 VAL ASP --> emin: -0.38 --> E_min_rep: -1.64
-A78 A83 -2.17 7.609 1 ALA SER 1 2 --> emin: 0.14 --> E_min: -2.17
-A78 A84 -2.06 5.711 1 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
-A78 A85 -2.29 4.397 1 ALA LYS 1 12 --> emin: 0.24 --> E_min: -2.29
-A78 A86 -2.1 6.405 1 ALA VAL 1 4 --> emin: 0.08 --> E_min: -2.1
-A79 A83 -2.3 5.996 1 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
-A79 A84 -2.0 4.966 0 HSD THR --> emin: 0.0 --> E_min: -2.0
-A79 A85 -1.7 6.271 -1 HSD LYS --> emin: -0.46 --> E_min_rep: -1.7
-A80 A84 -2.2 6.284 1 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
+i counter for CA atoms and j counters for CA atoms started counting from 0...
+
+Expected values of counter i:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92] 
+
+
+Expected values of counter j:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92] 
+
+A1 A25 -2.0 7.365 THR TYR 5 18 --> emin: 0.0 --> E_min: -2.0
+A1 A26 -2.0 5.261 THR PHE 5 17 --> emin: 0.0 --> E_min: -2.0
+A1 A27 -2.2 5.782 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
+A1 A81 -2.06 7.059 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
+A1 A82 -2.7 7.061 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+A2 A24 -2.73 7.639 THR GLY 5 0 --> emin: 0.61 --> E_min: -2.73
+A2 A25 -2.0 5.191 THR TYR 5 18 --> emin: 0.0 --> E_min: -2.0
+A2 A26 -2.0 5.32 THR PHE 5 17 --> emin: 0.0 --> E_min: -2.0
+A2 A27 -2.2 7.363 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
+A2 A82 -2.7 7.06 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+A3 A24 -2.6 7.389 PRO GLY 7 0 --> emin: 0.5 --> E_min: -2.6
+A3 A25 -2.14 4.995 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
+A3 A26 -2.3 7.114 PRO PHE 7 17 --> emin: 0.25 --> E_min: -2.3
+A3 A79 -2.06 6.865 PRO HSD 7 16 --> emin: -0.05 --> E_min: -2.06
+A3 A82 -2.3 6.459 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
+A3 A84 -2.2 6.739 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
+A4 A22 -2.22 5.841 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+A4 A23 -2.16 5.397 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
+A4 A24 -2.6 5.355 PRO GLY 7 0 --> emin: 0.5 --> E_min: -2.6
+A4 A25 -2.14 4.297 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
+A4 A26 -2.3 7.885 PRO PHE 7 17 --> emin: 0.25 --> E_min: -2.3
+A4 A79 -2.06 7.53 PRO HSD 7 16 --> emin: -0.05 --> E_min: -2.06
+A5 A21 -2.17 7.705 SER LEU 2 11 --> emin: 0.14 --> E_min: -2.17
+A5 A22 -2.65 5.563 SER VAL 2 4 --> emin: 0.54 --> E_min: -2.65
+A5 A23 -2.11 5.34 SER LYS 2 12 --> emin: 0.09 --> E_min: -2.11
+A5 A24 -2.78 6.811 SER GLY 2 0 --> emin: 0.65 --> E_min: -2.78
+A5 A25 -2.12 7.557 SER TYR 2 18 --> emin: 0.1 --> E_min: -2.12
+A6 A20 -2.61 6.907 VAL CYS 4 3 --> emin: -0.51 --> E_min: -2.61
+A6 A21 -2.1 5.526 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+A6 A22 -2.86 4.731 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+A6 A23 -2.47 6.619 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+A6 A77 -2.86 7.48 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+A6 A86 -2.86 7.283 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+A6 A88 -2.47 6.827 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+A7 A20 -2.42 5.998 TYR CYS 18 3 --> emin: 0.35 --> E_min: -2.42
+A7 A21 -2.19 4.993 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
+A7 A22 -2.19 6.665 TYR VAL 18 4 --> emin: 0.16 --> E_min: -2.19
+A7 A88 -2.46 7.166 TYR LYS 18 12 --> emin: 0.38 --> E_min: -2.46
+A8 A19 -2.6 6.626 PRO GLY 7 0 --> emin: 0.5 --> E_min: -2.6
+A8 A20 -2.23 5.279 PRO CYS 7 3 --> emin: -0.19 --> E_min: -2.23
+A8 A21 -2.08 6.569 PRO LEU 7 11 --> emin: -0.07 --> E_min: -2.08
+A8 A75 -2.23 7.813 PRO CYS 7 3 --> emin: -0.19 --> E_min: -2.23
+A8 A88 -2.16 6.295 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
+A8 A89 -2.16 6.962 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
+A8 A90 -2.23 5.393 PRO ILE 7 6 --> emin: 0.19 --> E_min: -2.23
+A8 A91 -2.22 7.757 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+A9 A18 -2.1 5.665 LEU LEU 11 11 --> emin: -0.08 --> E_min: -2.1
+A9 A19 -2.01 4.918 LEU GLY 11 0 --> emin: -0.01 --> E_min: -2.01
+A9 A20 -2.22 5.599 LEU CYS 11 3 --> emin: -0.18 --> E_min: -2.22
+A9 A21 -2.1 7.238 LEU LEU 11 11 --> emin: -0.08 --> E_min: -2.1
+A9 A90 -2.06 6.601 LEU ILE 11 6 --> emin: 0.05 --> E_min: -2.06
+A10 A17 -2.06 7.787 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
+A10 A18 -2.08 5.171 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
+A10 A19 -2.74 6.827 ALA GLY 1 0 --> emin: 0.62 --> E_min: -2.74
+A10 A90 -2.18 6.194 ALA ILE 1 6 --> emin: 0.15 --> E_min: -2.18
+A10 A91 -2.1 6.632 ALA VAL 1 4 --> emin: 0.08 --> E_min: -2.1
+A10 A92 -2.58 6.365 ALA PRO 1 7 --> emin: 0.48 --> E_min: -2.58
+A10 A93 -2.32 7.511 ALA ARG 1 15 --> emin: 0.27 --> E_min: -2.32
+A11 A17 -2.2 7.884 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
+A11 A18 -2.08 7.003 PRO LEU 7 11 --> emin: -0.07 --> E_min: -2.08
+A11 A92 -2.18 7.637 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
+A11 A93 -2.02 7.441 PRO ARG 7 15 --> emin: -0.02 --> E_min: -2.02
+A12 A92 -2.6 7.951 GLY PRO 0 7 --> emin: 0.5 --> E_min: -2.6
+A12 A93 -2.17 6.41 GLY ARG 0 15 --> emin: 0.14 --> E_min: -2.17
+A14 A65 -2.72 7.183 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
+A15 A62 -2.17 7.775 MET THR 8 5 --> emin: 0.14 --> E_min: -2.17
+A15 A63 -2.32 7.957 MET VAL 8 4 --> emin: -0.27 --> E_min: -2.32
+A15 A64 -2.17 7.165 MET THR 8 5 --> emin: 0.14 --> E_min: -2.17
+A15 A65 -2.17 5.939 MET SER 8 2 --> emin: 0.14 --> E_min: -2.17
+A16 A62 -2.82 5.513 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+A16 A63 -2.86 5.7 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+A16 A64 -2.82 6.084 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+A16 A65 -2.65 5.481 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+A16 A68 -2.49 7.742 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
+A17 A60 -2.7 6.594 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+A17 A61 -2.82 5.599 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+A17 A62 -2.36 4.227 THR THR 5 5 --> emin: 0.3 --> E_min: -2.36
+A17 A63 -2.82 6.428 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+A18 A60 -2.17 5.756 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
+A18 A61 -2.1 5.576 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+A18 A62 -2.05 6.485 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
+A18 A90 -2.06 7.379 LEU ILE 11 6 --> emin: 0.05 --> E_min: -2.06
+A19 A58 -2.78 6.923 GLY SER 0 2 --> emin: 0.65 --> E_min: -2.78
+A19 A59 -2.78 5.352 GLY SER 0 2 --> emin: 0.65 --> E_min: -2.78
+A19 A60 -2.78 4.006 GLY SER 0 2 --> emin: 0.65 --> E_min: -2.78
+A19 A61 -2.6 5.937 GLY VAL 0 4 --> emin: 0.5 --> E_min: -2.6
+A19 A75 -2.28 7.837 GLY CYS 0 3 --> emin: 0.23 --> E_min: -2.28
+A20 A58 -2.44 5.427 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
+A20 A59 -2.44 5.104 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
+A20 A60 -2.44 6.363 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
+A20 A75 -2.89 6.522 CYS CYS 3 3 --> emin: -0.74 --> E_min: -2.89
+A21 A56 -2.05 7.485 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
+A21 A57 -2.1 6.217 LEU LEU 11 11 --> emin: -0.08 --> E_min: -2.1
+A21 A58 -2.17 4.82 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
+A21 A59 -2.17 6.935 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
+A22 A56 -2.82 5.753 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+A22 A57 -2.1 5.474 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+A22 A58 -2.65 6.295 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+A22 A77 -2.86 7.8 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+A23 A54 -2.43 7.891 LYS LEU 12 11 --> emin: 0.36 --> E_min: -2.43
+A23 A55 -2.46 6.365 LYS TYR 12 18 --> emin: 0.38 --> E_min: -2.46
+A23 A56 -2.02 4.373 LYS THR 12 5 --> emin: 0.02 --> E_min: -2.02
+A23 A57 -2.43 6.461 LYS LEU 12 11 --> emin: 0.36 --> E_min: -2.43
+A24 A51 -2.12 7.945 GLY GLN 0 14 --> emin: 0.1 --> E_min: -2.12
+A24 A54 -2.01 4.781 GLY LEU 0 11 --> emin: -0.01 --> E_min: -2.01
+A24 A55 -2.14 5.129 GLY TYR 0 18 --> emin: 0.12 --> E_min: -2.14
+A24 A56 -2.73 5.636 GLY THR 0 5 --> emin: 0.61 --> E_min: -2.73
+A25 A54 -2.19 5.301 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
+A25 A55 -2.48 5.202 TYR TYR 18 18 --> emin: -0.4 --> E_min: -2.48
+A25 A56 -2.0 6.944 TYR THR 18 5 --> emin: 0.0 --> E_min: -2.0
+A26 A53 -2.32 7.233 PHE ASP 17 9 --> emin: 0.27 --> E_min: -2.32
+A26 A54 -2.74 4.862 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
+A26 A55 -2.13 5.739 PHE TYR 17 18 --> emin: 0.11 --> E_min: -2.13
+A27 A81 -2.58 6.166 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
+A28 A48 -2.0 7.76 GLU ALA 13 1 --> emin: 0.0 --> E_min: -2.0
+A28 A55 -3.54 6.628 GLU TYR 13 18 --> emin: -1.28 --> E_min: -3.54
+A29 A79 -2.06 6.559 PRO HSD 7 16 --> emin: -0.05 --> E_min: -2.06
+A29 A80 -2.18 6.973 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
+A29 A81 -2.58 7.032 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
+A30 A77 -2.86 7.05 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+A30 A78 -2.1 5.789 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
+A30 A79 -2.2 4.937 VAL HSD 4 16 --> emin: 0.17 --> E_min: -2.2
+A30 A80 -2.22 7.002 VAL PRO 4 7 --> emin: 0.18 --> E_min: -2.22
+A31 A76 -2.12 7.68 THR ASN 5 10 --> emin: 0.1 --> E_min: -2.12
+A31 A77 -2.82 5.649 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+A31 A78 -2.06 5.2 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
+A31 A79 -2.0 6.784 THR HSD 5 16 --> emin: 0.0 --> E_min: -2.0
+A32 A45 -2.82 7.501 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+A32 A59 -2.65 7.303 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+A32 A75 -2.61 6.701 VAL CYS 4 3 --> emin: -0.51 --> E_min: -2.61
+A32 A76 -2.05 5.219 VAL ASN 4 10 --> emin: 0.04 --> E_min: -2.05
+A32 A77 -2.86 4.672 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+A32 A78 -2.1 6.627 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
+A33 A37 -2.73 4.959 THR GLY 5 0 --> emin: 0.61 --> E_min: -2.73
+A33 A39 -2.05 7.5 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
+A33 A40 -2.7 7.296 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+A33 A75 -2.58 6.09 THR CYS 5 3 --> emin: -0.48 --> E_min: -2.58
+A33 A76 -2.12 4.969 THR ASN 5 10 --> emin: 0.1 --> E_min: -2.12
+A33 A77 -2.82 6.885 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+A34 A38 -2.12 6.838 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
+A34 A39 -2.44 5.166 TRP LEU 19 11 --> emin: 0.37 --> E_min: -2.44
+A34 A40 -2.12 6.674 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
+A34 A61 -2.49 7.653 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+A34 A73 -2.49 7.042 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+A34 A74 -2.0 5.3 TRP THR 19 5 --> emin: 0.0 --> E_min: -2.0
+A34 A75 -2.55 4.839 TRP CYS 19 3 --> emin: 0.46 --> E_min: -2.55
+A34 A76 -2.01 5.721 TRP ASN 19 10 --> emin: -0.01 --> E_min: -2.01
+A35 A39 -2.22 5.546 ASN LEU 10 11 --> emin: 0.18 --> E_min: -2.22
+A35 A73 -2.05 6.304 ASN VAL 10 4 --> emin: 0.04 --> E_min: -2.05
+A35 A74 -2.12 5.063 ASN THR 10 5 --> emin: 0.1 --> E_min: -2.12
+A35 A75 -2.11 6.615 ASN CYS 10 3 --> emin: -0.09 --> E_min: -2.11
+A35 A76 -2.26 6.828 ASN ASN 10 10 --> emin: 0.22 --> E_min: -2.26
+A36 A74 -2.7 7.922 SER THR 2 5 --> emin: 0.58 --> E_min: -2.7
+A36 A76 -2.16 6.435 SER ASN 2 10 --> emin: 0.13 --> E_min: -2.16
+A41 A61 -2.65 7.473 SER VAL 2 4 --> emin: 0.54 --> E_min: -2.65
+A41 A62 -2.7 7.848 SER THR 2 5 --> emin: 0.58 --> E_min: -2.7
+A42 A60 -2.78 7.56 GLY SER 0 2 --> emin: 0.65 --> E_min: -2.78
+A42 A61 -2.6 5.163 GLY VAL 0 4 --> emin: 0.5 --> E_min: -2.6
+A42 A62 -2.73 4.816 GLY THR 0 5 --> emin: 0.61 --> E_min: -2.73
+A42 A63 -2.6 6.82 GLY VAL 0 4 --> emin: 0.5 --> E_min: -2.6
+A43 A59 -2.65 6.834 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+A43 A60 -2.65 5.308 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+A43 A61 -2.86 4.178 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+A43 A62 -2.82 6.451 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+A44 A59 -2.3 5.346 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
+A44 A60 -2.3 5.054 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
+A44 A61 -2.2 6.463 HSD VAL 16 4 --> emin: 0.17 --> E_min: -2.2
+A45 A57 -2.05 7.724 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
+A45 A58 -2.7 6.069 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+A45 A59 -2.7 4.003 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+A45 A60 -2.7 6.355 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+A46 A57 -2.74 6.085 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
+A46 A58 -2.01 5.541 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
+A46 A59 -2.01 5.964 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
+A47 A57 -2.08 6.35 PRO LEU 7 11 --> emin: -0.07 --> E_min: -2.08
+A47 A58 -2.3 7.923 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
+A48 A55 -2.24 6.083 ALA TYR 1 18 --> emin: 0.2 --> E_min: -2.24
+A48 A56 -2.06 5.378 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
+A48 A57 -2.08 4.281 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
+A48 A58 -2.17 7.495 ALA SER 1 2 --> emin: 0.14 --> E_min: -2.17
+A49 A55 -2.19 5.752 VAL TYR 4 18 --> emin: 0.16 --> E_min: -2.19
+A49 A56 -2.82 5.667 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+A49 A57 -2.1 6.377 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+A50 A54 -2.1 5.658 LEU LEU 11 11 --> emin: -0.08 --> E_min: -2.1
+A50 A55 -2.19 4.345 LEU TYR 11 18 --> emin: 0.16 --> E_min: -2.19
+A50 A56 -2.05 6.278 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
+A51 A55 -2.24 5.792 GLN TYR 14 18 --> emin: -0.2 --> E_min: -2.24
+A51 A56 -2.0 6.638 GLN THR 14 5 --> emin: 0.0 --> E_min: -2.0
+A63 A67 -2.82 7.081 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+A63 A68 -2.49 7.019 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
+A64 A68 -2.0 6.704 THR TRP 5 19 --> emin: 0.0 --> E_min: -2.0
+A66 A70 -2.72 7.363 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
+A67 A71 -2.0 5.631 THR GLU 5 13 --> emin: 0.0 --> E_min: -2.0
+A68 A72 -2.0 7.04 TRP THR 19 5 --> emin: 0.0 --> E_min: -2.0
+A68 A73 -2.49 6.836 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+A69 A91 -2.22 7.18 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+A69 A92 -2.18 6.46 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
+A72 A89 -2.02 7.134 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
+A72 A90 -2.34 7.654 THR ILE 5 6 --> emin: 0.28 --> E_min: -2.34
+A73 A89 -2.47 6.17 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+A73 A90 -2.56 5.92 VAL ILE 4 6 --> emin: -0.47 --> E_min: -2.56
+A74 A87 -2.12 6.584 THR ASP 5 9 --> emin: 0.1 --> E_min: -2.12
+A74 A88 -2.02 5.818 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
+A74 A89 -2.02 4.714 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
+A74 A90 -2.34 5.977 THR ILE 5 6 --> emin: 0.28 --> E_min: -2.34
+A75 A87 -2.31 5.805 CYS ASP 3 9 --> emin: -0.26 --> E_min: -2.31
+A75 A88 -2.34 5.319 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
+A75 A89 -2.34 6.505 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
+A75 A90 -2.59 7.366 CYS ILE 3 6 --> emin: -0.49 --> E_min: -2.59
+A76 A85 -2.05 7.514 ASN LYS 10 12 --> emin: -0.04 --> E_min: -2.05
+A76 A86 -2.05 6.127 ASN VAL 10 4 --> emin: 0.04 --> E_min: -2.05
+A76 A87 -2.17 4.917 ASN ASP 10 9 --> emin: 0.14 --> E_min: -2.17
+A76 A88 -2.05 6.823 ASN LYS 10 12 --> emin: -0.04 --> E_min: -2.05
+A77 A85 -2.47 5.759 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+A77 A86 -2.86 5.211 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+A77 A87 -2.46 6.401 VAL ASP 4 9 --> emin: -0.38 --> E_min: -2.46
+A78 A83 -2.17 7.609 ALA SER 1 2 --> emin: 0.14 --> E_min: -2.17
+A78 A84 -2.06 5.711 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
+A78 A85 -2.29 4.397 ALA LYS 1 12 --> emin: 0.24 --> E_min: -2.29
+A78 A86 -2.1 6.405 ALA VAL 1 4 --> emin: 0.08 --> E_min: -2.1
+A79 A83 -2.3 5.996 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
+A79 A84 -2.0 4.966 HSD THR 16 5 --> emin: 0.0 --> E_min: -2.0
+A79 A85 -2.55 6.271 HSD LYS 16 12 --> emin: -0.46 --> E_min: -2.55
+A80 A84 -2.2 6.284 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
 
 Detailed version of NBFIX section between atoms of CB and CB :
 
-B1 B26 -2.0 6.434 0 THR PHE --> emin: 0.0 --> E_min: -2.0
-B1 B27 -2.2 3.876 1 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
-B1 B79 -2.0 6.802 0 THR HSD --> emin: 0.0 --> E_min: -2.0
-B1 B81 -2.06 4.89 1 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
-B1 B82 -2.7 5.408 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B2 B26 -2.0 7.122 0 THR PHE --> emin: 0.0 --> E_min: -2.0
-B2 B27 -2.2 7.087 1 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
-B2 B54 -2.05 4.976 1 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
-B2 B79 -2.0 7.678 0 THR HSD --> emin: 0.0 --> E_min: -2.0
-B2 B82 -2.7 7.31 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B3 B79 -1.37 6.491 -1 PRO HSD --> emin: -0.05 --> E_min_rep: -1.37
-B3 B82 -2.3 4.775 1 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
-B3 B84 -2.2 5.148 1 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
-B4 B22 -2.22 5.243 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B4 B25 -2.14 5.476 1 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
-B4 B30 -2.22 5.974 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B4 B77 -2.22 6.024 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B4 B79 -1.37 4.842 -1 PRO HSD --> emin: -0.05 --> E_min_rep: -1.37
-B4 B82 -2.3 6.87 1 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
-B4 B84 -2.2 5.453 1 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
-B4 B86 -2.22 6.999 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B5 B22 -2.65 7.896 1 SER VAL 2 4 --> emin: 0.54 --> E_min: -2.65
-B5 B23 -2.11 6.862 1 SER LYS 2 12 --> emin: 0.09 --> E_min: -2.11
-B6 B20 -1.74 5.607 -1 VAL CYS --> emin: -0.51 --> E_min_rep: -1.74
-B6 B22 -1.91 5.203 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B6 B32 -1.91 7.845 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B6 B75 -1.74 4.99 -1 VAL CYS --> emin: -0.51 --> E_min_rep: -1.74
-B6 B77 -1.91 4.117 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B6 B86 -1.91 4.509 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B6 B88 -2.47 4.524 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-B7 B21 -2.19 5.838 1 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
-B7 B23 -2.46 6.365 1 TYR LYS 18 12 --> emin: 0.38 --> E_min: -2.46
-B7 B88 -2.46 7.668 1 TYR LYS 18 12 --> emin: 0.38 --> E_min: -2.46
-B8 B20 -1.49 6.819 -1 PRO CYS --> emin: -0.19 --> E_min_rep: -1.49
-B8 B75 -1.49 7.631 -1 PRO CYS --> emin: -0.19 --> E_min_rep: -1.49
-B8 B88 -2.16 5.427 1 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
-B8 B90 -2.23 5.498 1 PRO ILE 7 6 --> emin: 0.19 --> E_min: -2.23
-B8 B91 -2.22 6.857 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B9 B20 -1.48 6.369 -1 LEU CYS --> emin: -0.18 --> E_min_rep: -1.48
-B9 B21 -1.4 5.453 -1 LEU LEU --> emin: -0.08 --> E_min_rep: -1.4
-B9 B58 -2.17 7.569 1 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
-B9 B90 -2.06 7.173 1 LEU ILE 11 6 --> emin: 0.05 --> E_min: -2.06
-B10 B18 -2.08 6.148 1 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
-B10 B68 -2.52 5.827 1 ALA TRP 1 19 --> emin: 0.43 --> E_min: -2.52
-B10 B90 -2.18 4.858 1 ALA ILE 1 6 --> emin: 0.15 --> E_min: -2.18
-B10 B91 -2.1 6.616 1 ALA VAL 1 4 --> emin: 0.08 --> E_min: -2.1
-B10 B92 -2.58 6.401 1 ALA PRO 1 7 --> emin: 0.48 --> E_min: -2.58
-B11 B16 -2.22 5.688 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B11 B17 -2.2 7.005 1 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
-B11 B18 -1.39 6.501 -1 PRO LEU --> emin: -0.07 --> E_min_rep: -1.39
-B11 B68 -2.31 6.884 1 PRO TRP 7 19 --> emin: 0.26 --> E_min: -2.31
-B14 B65 -2.72 6.458 1 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
-B15 B65 -2.17 6.621 1 MET SER 8 2 --> emin: 0.14 --> E_min: -2.17
-B16 B62 -1.88 7.249 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B16 B63 -1.91 6.422 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B16 B65 -2.65 6.173 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-B16 B68 -2.49 5.312 1 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
-B16 B69 -2.22 7.619 1 VAL PRO 4 7 --> emin: 0.18 --> E_min: -2.22
-B17 B60 -2.7 5.434 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B17 B61 -1.88 7.132 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-B17 B62 -2.36 3.841 1 THR THR 5 5 --> emin: 0.3 --> E_min: -2.36
-B18 B34 -2.44 6.842 1 LEU TRP 11 19 --> emin: 0.37 --> E_min: -2.44
-B18 B61 -1.4 5.163 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B18 B62 -2.05 7.711 1 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
-B18 B63 -1.4 5.621 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B18 B68 -2.44 4.88 1 LEU TRP 11 19 --> emin: 0.37 --> E_min: -2.44
-B18 B73 -1.4 4.948 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B18 B90 -2.06 4.807 1 LEU ILE 11 6 --> emin: 0.05 --> E_min: -2.06
-B20 B32 -1.74 6.005 -1 CYS VAL --> emin: -0.51 --> E_min_rep: -1.74
-B20 B34 -2.55 5.283 1 CYS TRP 3 19 --> emin: 0.46 --> E_min: -2.55
-B20 B59 -2.44 5.968 1 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
-B20 B75 -1.93 2.351 -1 CYS CYS --> emin: -0.74 --> E_min_rep: -1.93
-B20 B77 -1.74 6.542 -1 CYS VAL --> emin: -0.51 --> E_min_rep: -1.74
-B20 B88 -2.34 7.438 1 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
-B20 B90 -1.73 6.232 -1 CYS ILE --> emin: -0.49 --> E_min_rep: -1.73
-B21 B56 -2.05 6.241 1 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
-B21 B58 -2.17 6.407 1 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
-B22 B30 -1.91 5.215 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B22 B32 -1.91 6.15 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B22 B56 -1.88 7.409 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B22 B57 -1.4 5.441 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-B22 B75 -1.74 7.305 -1 VAL CYS --> emin: -0.51 --> E_min_rep: -1.74
-B22 B77 -1.91 4.473 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B23 B51 -1.45 5.633 -1 LYS GLN --> emin: -0.15 --> E_min_rep: -1.45
-B23 B56 -2.02 4.341 1 LYS THR 12 5 --> emin: 0.02 --> E_min: -2.02
-B25 B30 -2.19 4.223 1 TYR VAL 18 4 --> emin: 0.16 --> E_min: -2.19
-B25 B48 -2.24 5.482 1 TYR ALA 18 1 --> emin: 0.2 --> E_min: -2.24
-B25 B54 -2.19 7.855 1 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
-B25 B55 -1.65 5.692 -1 TYR TYR --> emin: -0.4 --> E_min_rep: -1.65
-B25 B56 -2.0 6.847 0 TYR THR --> emin: 0.0 --> E_min: -2.0
-B25 B57 -2.19 6.085 1 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
-B25 B79 -2.31 6.011 1 TYR HSD 18 16 --> emin: 0.26 --> E_min: -2.31
-B26 B50 -2.74 7.373 1 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
-B26 B53 -2.32 6.602 1 PHE ASP 17 9 --> emin: 0.27 --> E_min: -2.32
-B26 B54 -2.74 6.793 1 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
-B26 B55 -2.13 5.957 1 PHE TYR 17 18 --> emin: 0.11 --> E_min: -2.13
-B27 B55 -2.14 7.702 1 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
-B27 B79 -1.37 5.203 -1 PRO HSD --> emin: -0.05 --> E_min_rep: -1.37
-B27 B81 -2.58 3.705 1 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
-B27 B82 -2.3 6.571 1 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
-B28 B48 -2.0 4.903 0 GLU ALA --> emin: 0.0 --> E_min: -2.0
-B28 B50 -2.0 7.625 0 GLU LEU --> emin: 0.0 --> E_min: -2.0
-B28 B55 -27.54 4.11 1 GLU TYR 13 18 --> emin: 21.28 --> E_min: -27.54
-B29 B79 -1.37 6.39 -1 PRO HSD --> emin: -0.05 --> E_min_rep: -1.37
-B29 B80 -2.18 5.566 1 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
-B29 B81 -2.58 5.258 1 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
-B30 B48 -2.1 7.096 1 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
-B30 B57 -1.4 6.181 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-B30 B77 -1.91 6.074 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B30 B78 -2.1 6.976 1 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
-B30 B79 -2.2 5.309 1 VAL HSD 4 16 --> emin: 0.17 --> E_min: -2.2
-B30 B80 -2.22 6.825 1 VAL PRO 4 7 --> emin: 0.18 --> E_min: -2.22
-B31 B77 -1.88 7.626 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-B31 B78 -2.06 4.284 1 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
-B31 B80 -2.2 6.012 1 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
-B32 B45 -1.88 4.865 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B32 B57 -1.4 6.517 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-B32 B59 -2.65 4.321 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-B32 B75 -1.74 5.508 -1 VAL CYS --> emin: -0.51 --> E_min_rep: -1.74
-B32 B76 -2.05 7.686 1 VAL ASN 4 10 --> emin: 0.04 --> E_min: -2.05
-B32 B77 -1.91 5.052 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B32 B78 -2.1 7.887 1 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
-B33 B40 -2.7 7.588 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B33 B76 -2.12 4.754 1 THR ASN 5 10 --> emin: 0.1 --> E_min: -2.12
-B33 B78 -2.06 7.596 1 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
-B34 B39 -2.44 6.417 1 TRP LEU 19 11 --> emin: 0.37 --> E_min: -2.44
-B34 B43 -2.49 6.085 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-B34 B59 -2.12 5.088 1 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
-B34 B60 -2.12 7.637 1 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
-B34 B61 -2.49 3.997 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-B34 B73 -2.49 6.446 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-B34 B74 -2.0 7.625 0 TRP THR --> emin: 0.0 --> E_min: -2.0
-B34 B75 -2.55 5.291 1 TRP CYS 19 3 --> emin: 0.46 --> E_min: -2.55
-B34 B76 -1.34 7.175 -1 TRP ASN --> emin: -0.01 --> E_min_rep: -1.34
-B34 B90 -2.46 7.277 1 TRP ILE 19 6 --> emin: 0.38 --> E_min: -2.46
-B35 B39 -2.22 4.599 1 ASN LEU 10 11 --> emin: 0.18 --> E_min: -2.22
-B35 B71 -2.0 7.514 0 ASN GLU --> emin: 0.0 --> E_min: -2.0
-B35 B72 -2.12 6.789 1 ASN THR 10 5 --> emin: 0.1 --> E_min: -2.12
-B35 B73 -2.05 5.095 1 ASN VAL 10 4 --> emin: 0.04 --> E_min: -2.05
-B35 B74 -2.12 5.156 1 ASN THR 10 5 --> emin: 0.1 --> E_min: -2.12
-B35 B76 -2.26 6.595 1 ASN ASN 10 10 --> emin: 0.22 --> E_min: -2.26
-B36 B74 -2.7 7.455 1 SER THR 2 5 --> emin: 0.58 --> E_min: -2.7
-B36 B76 -2.16 4.741 1 SER ASN 2 10 --> emin: 0.13 --> E_min: -2.16
-B36 B87 -2.22 6.938 1 SER ASP 2 9 --> emin: 0.18 --> E_min: -2.22
-B39 B43 -1.4 6.971 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B39 B61 -1.4 5.196 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B39 B63 -1.4 5.615 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B39 B67 -2.05 7.949 1 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
-B39 B73 -1.4 5.765 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B43 B59 -2.65 6.095 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-B43 B60 -2.65 7.5 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-B43 B61 -1.91 5.593 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B44 B60 -2.3 5.395 1 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
-B44 B62 -2.0 7.463 0 HSD THR --> emin: 0.0 --> E_min: -2.0
-B45 B57 -2.05 5.598 1 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
-B45 B58 -2.7 7.676 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B45 B59 -2.7 3.661 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B46 B57 -2.74 7.756 1 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
-B46 B58 -2.01 4.604 1 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
-B46 B59 -2.01 7.208 1 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
-B46 B60 -2.01 5.874 1 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
-B47 B57 -1.39 7.082 -1 PRO LEU --> emin: -0.07 --> E_min_rep: -1.39
-B48 B55 -2.24 5.168 1 ALA TYR 1 18 --> emin: 0.2 --> E_min: -2.24
-B48 B56 -2.06 7.105 1 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
-B48 B57 -2.08 4.25 1 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
-B49 B56 -1.88 6.617 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B50 B54 -1.4 7.862 -1 LEU LEU --> emin: -0.08 --> E_min_rep: -1.4
-B50 B55 -2.19 4.237 1 LEU TYR 11 18 --> emin: 0.16 --> E_min: -2.19
-B51 B56 -2.0 5.193 0 GLN THR --> emin: 0.0 --> E_min: -2.0
-B59 B75 -2.44 6.816 1 SER CYS 2 3 --> emin: 0.37 --> E_min: -2.44
-B61 B73 -1.91 5.931 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B63 B67 -1.88 5.101 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B63 B68 -2.49 7.206 1 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
-B63 B73 -1.91 5.447 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B66 B70 -2.72 7.338 1 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
-B67 B71 -2.0 6.167 0 THR GLU --> emin: 0.0 --> E_min: -2.0
-B67 B73 -1.88 7.633 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-B68 B73 -2.49 6.28 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-B68 B90 -2.46 6.569 1 TRP ILE 19 6 --> emin: 0.38 --> E_min: -2.46
-B68 B92 -2.31 5.357 1 TRP PRO 19 7 --> emin: 0.26 --> E_min: -2.31
-B69 B92 -2.18 5.291 1 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
-B72 B89 -2.02 4.472 1 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
-B73 B89 -2.47 7.931 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-B73 B90 -1.71 5.874 -1 VAL ILE --> emin: -0.47 --> E_min_rep: -1.71
-B74 B87 -2.12 5.46 1 THR ASP 5 9 --> emin: 0.1 --> E_min: -2.12
-B74 B89 -2.02 5.972 1 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
-B74 B90 -2.34 7.546 1 THR ILE 5 6 --> emin: 0.28 --> E_min: -2.34
-B75 B86 -1.74 7.627 -1 CYS VAL --> emin: -0.51 --> E_min_rep: -1.74
-B75 B87 -1.54 7.669 -1 CYS ASP --> emin: -0.26 --> E_min_rep: -1.54
-B75 B88 -2.34 6.668 1 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
-B75 B90 -1.73 6.96 -1 CYS ILE --> emin: -0.49 --> E_min_rep: -1.73
-B76 B85 -1.37 7.676 -1 ASN LYS --> emin: -0.04 --> E_min_rep: -1.37
-B76 B87 -2.17 4.538 1 ASN ASP 10 9 --> emin: 0.14 --> E_min: -2.17
-B77 B86 -1.91 5.311 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B77 B88 -2.47 7.942 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-B78 B84 -2.06 7.606 1 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
-B78 B85 -2.29 4.923 1 ALA LYS 1 12 --> emin: 0.24 --> E_min: -2.29
-B79 B84 -2.0 5.664 0 HSD THR --> emin: 0.0 --> E_min: -2.0
+i counter for CB atoms and j counters for CB atoms started counting from 0...
+
+Expected values of counter i:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87] 
+
+
+Expected values of counter j:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87] 
+
+B1 B26 -2.0 6.434 THR PHE 5 17 --> emin: 0.0 --> E_min: -2.0
+B1 B27 -2.2 3.876 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
+B1 B79 -2.0 6.802 THR HSD 5 16 --> emin: 0.0 --> E_min: -2.0
+B1 B81 -2.06 4.89 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
+B1 B82 -2.7 5.408 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B2 B26 -2.0 7.122 THR PHE 5 17 --> emin: 0.0 --> E_min: -2.0
+B2 B27 -2.2 7.087 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
+B2 B54 -2.05 4.976 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
+B2 B79 -2.0 7.678 THR HSD 5 16 --> emin: 0.0 --> E_min: -2.0
+B2 B82 -2.7 7.31 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B3 B79 -2.06 6.491 PRO HSD 7 16 --> emin: -0.05 --> E_min: -2.06
+B3 B82 -2.3 4.775 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
+B3 B84 -2.2 5.148 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
+B4 B22 -2.22 5.243 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B4 B25 -2.14 5.476 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
+B4 B30 -2.22 5.974 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B4 B77 -2.22 6.024 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B4 B79 -2.06 4.842 PRO HSD 7 16 --> emin: -0.05 --> E_min: -2.06
+B4 B82 -2.3 6.87 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
+B4 B84 -2.2 5.453 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
+B4 B86 -2.22 6.999 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B5 B22 -2.65 7.896 SER VAL 2 4 --> emin: 0.54 --> E_min: -2.65
+B5 B23 -2.11 6.862 SER LYS 2 12 --> emin: 0.09 --> E_min: -2.11
+B6 B20 -2.61 5.607 VAL CYS 4 3 --> emin: -0.51 --> E_min: -2.61
+B6 B22 -2.86 5.203 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B6 B32 -2.86 7.845 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B6 B75 -2.61 4.99 VAL CYS 4 3 --> emin: -0.51 --> E_min: -2.61
+B6 B77 -2.86 4.117 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B6 B86 -2.86 4.509 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B6 B88 -2.47 4.524 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+B7 B21 -2.19 5.838 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
+B7 B23 -2.46 6.365 TYR LYS 18 12 --> emin: 0.38 --> E_min: -2.46
+B7 B88 -2.46 7.668 TYR LYS 18 12 --> emin: 0.38 --> E_min: -2.46
+B8 B20 -2.23 6.819 PRO CYS 7 3 --> emin: -0.19 --> E_min: -2.23
+B8 B75 -2.23 7.631 PRO CYS 7 3 --> emin: -0.19 --> E_min: -2.23
+B8 B88 -2.16 5.427 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
+B8 B90 -2.23 5.498 PRO ILE 7 6 --> emin: 0.19 --> E_min: -2.23
+B8 B91 -2.22 6.857 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B9 B20 -2.22 6.369 LEU CYS 11 3 --> emin: -0.18 --> E_min: -2.22
+B9 B21 -2.1 5.453 LEU LEU 11 11 --> emin: -0.08 --> E_min: -2.1
+B9 B58 -2.17 7.569 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
+B9 B90 -2.06 7.173 LEU ILE 11 6 --> emin: 0.05 --> E_min: -2.06
+B10 B18 -2.08 6.148 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
+B10 B68 -2.52 5.827 ALA TRP 1 19 --> emin: 0.43 --> E_min: -2.52
+B10 B90 -2.18 4.858 ALA ILE 1 6 --> emin: 0.15 --> E_min: -2.18
+B10 B91 -2.1 6.616 ALA VAL 1 4 --> emin: 0.08 --> E_min: -2.1
+B10 B92 -2.58 6.401 ALA PRO 1 7 --> emin: 0.48 --> E_min: -2.58
+B11 B16 -2.22 5.688 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B11 B17 -2.2 7.005 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
+B11 B18 -2.08 6.501 PRO LEU 7 11 --> emin: -0.07 --> E_min: -2.08
+B11 B68 -2.31 6.884 PRO TRP 7 19 --> emin: 0.26 --> E_min: -2.31
+B14 B65 -2.72 6.458 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
+B15 B65 -2.17 6.621 MET SER 8 2 --> emin: 0.14 --> E_min: -2.17
+B16 B62 -2.82 7.249 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B16 B63 -2.86 6.422 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B16 B65 -2.65 6.173 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+B16 B68 -2.49 5.312 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
+B16 B69 -2.22 7.619 VAL PRO 4 7 --> emin: 0.18 --> E_min: -2.22
+B17 B60 -2.7 5.434 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B17 B61 -2.82 7.132 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+B17 B62 -2.36 3.841 THR THR 5 5 --> emin: 0.3 --> E_min: -2.36
+B18 B34 -2.44 6.842 LEU TRP 11 19 --> emin: 0.37 --> E_min: -2.44
+B18 B61 -2.1 5.163 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B18 B62 -2.05 7.711 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
+B18 B63 -2.1 5.621 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B18 B68 -2.44 4.88 LEU TRP 11 19 --> emin: 0.37 --> E_min: -2.44
+B18 B73 -2.1 4.948 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B18 B90 -2.06 4.807 LEU ILE 11 6 --> emin: 0.05 --> E_min: -2.06
+B20 B32 -2.61 6.005 CYS VAL 3 4 --> emin: -0.51 --> E_min: -2.61
+B20 B34 -2.55 5.283 CYS TRP 3 19 --> emin: 0.46 --> E_min: -2.55
+B20 B59 -2.44 5.968 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
+B20 B75 -2.89 2.351 CYS CYS 3 3 --> emin: -0.74 --> E_min: -2.89
+B20 B77 -2.61 6.542 CYS VAL 3 4 --> emin: -0.51 --> E_min: -2.61
+B20 B88 -2.34 7.438 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
+B20 B90 -2.59 6.232 CYS ILE 3 6 --> emin: -0.49 --> E_min: -2.59
+B21 B56 -2.05 6.241 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
+B21 B58 -2.17 6.407 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
+B22 B30 -2.86 5.215 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B22 B32 -2.86 6.15 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B22 B56 -2.82 7.409 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B22 B57 -2.1 5.441 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+B22 B75 -2.61 7.305 VAL CYS 4 3 --> emin: -0.51 --> E_min: -2.61
+B22 B77 -2.86 4.473 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B23 B51 -2.18 5.633 LYS GLN 12 14 --> emin: -0.15 --> E_min: -2.18
+B23 B56 -2.02 4.341 LYS THR 12 5 --> emin: 0.02 --> E_min: -2.02
+B25 B30 -2.19 4.223 TYR VAL 18 4 --> emin: 0.16 --> E_min: -2.19
+B25 B48 -2.24 5.482 TYR ALA 18 1 --> emin: 0.2 --> E_min: -2.24
+B25 B54 -2.19 7.855 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
+B25 B55 -2.48 5.692 TYR TYR 18 18 --> emin: -0.4 --> E_min: -2.48
+B25 B56 -2.0 6.847 TYR THR 18 5 --> emin: 0.0 --> E_min: -2.0
+B25 B57 -2.19 6.085 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
+B25 B79 -2.31 6.011 TYR HSD 18 16 --> emin: 0.26 --> E_min: -2.31
+B26 B50 -2.74 7.373 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
+B26 B53 -2.32 6.602 PHE ASP 17 9 --> emin: 0.27 --> E_min: -2.32
+B26 B54 -2.74 6.793 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
+B26 B55 -2.13 5.957 PHE TYR 17 18 --> emin: 0.11 --> E_min: -2.13
+B27 B55 -2.14 7.702 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
+B27 B79 -2.06 5.203 PRO HSD 7 16 --> emin: -0.05 --> E_min: -2.06
+B27 B81 -2.58 3.705 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
+B27 B82 -2.3 6.571 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
+B28 B48 -2.0 4.903 GLU ALA 13 1 --> emin: 0.0 --> E_min: -2.0
+B28 B50 -2.0 7.625 GLU LEU 13 11 --> emin: 0.0 --> E_min: -2.0
+B28 B55 -3.54 4.11 GLU TYR 13 18 --> emin: -1.28 --> E_min: -3.54
+B29 B79 -2.06 6.39 PRO HSD 7 16 --> emin: -0.05 --> E_min: -2.06
+B29 B80 -2.18 5.566 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
+B29 B81 -2.58 5.258 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
+B30 B48 -2.1 7.096 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
+B30 B57 -2.1 6.181 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+B30 B77 -2.86 6.074 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B30 B78 -2.1 6.976 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
+B30 B79 -2.2 5.309 VAL HSD 4 16 --> emin: 0.17 --> E_min: -2.2
+B30 B80 -2.22 6.825 VAL PRO 4 7 --> emin: 0.18 --> E_min: -2.22
+B31 B77 -2.82 7.626 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+B31 B78 -2.06 4.284 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
+B31 B80 -2.2 6.012 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
+B32 B45 -2.82 4.865 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B32 B57 -2.1 6.517 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+B32 B59 -2.65 4.321 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+B32 B75 -2.61 5.508 VAL CYS 4 3 --> emin: -0.51 --> E_min: -2.61
+B32 B76 -2.05 7.686 VAL ASN 4 10 --> emin: 0.04 --> E_min: -2.05
+B32 B77 -2.86 5.052 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B32 B78 -2.1 7.887 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
+B33 B40 -2.7 7.588 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B33 B76 -2.12 4.754 THR ASN 5 10 --> emin: 0.1 --> E_min: -2.12
+B33 B78 -2.06 7.596 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
+B34 B39 -2.44 6.417 TRP LEU 19 11 --> emin: 0.37 --> E_min: -2.44
+B34 B43 -2.49 6.085 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+B34 B59 -2.12 5.088 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
+B34 B60 -2.12 7.637 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
+B34 B61 -2.49 3.997 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+B34 B73 -2.49 6.446 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+B34 B74 -2.0 7.625 TRP THR 19 5 --> emin: 0.0 --> E_min: -2.0
+B34 B75 -2.55 5.291 TRP CYS 19 3 --> emin: 0.46 --> E_min: -2.55
+B34 B76 -2.01 7.175 TRP ASN 19 10 --> emin: -0.01 --> E_min: -2.01
+B34 B90 -2.46 7.277 TRP ILE 19 6 --> emin: 0.38 --> E_min: -2.46
+B35 B39 -2.22 4.599 ASN LEU 10 11 --> emin: 0.18 --> E_min: -2.22
+B35 B71 -2.0 7.514 ASN GLU 10 13 --> emin: 0.0 --> E_min: -2.0
+B35 B72 -2.12 6.789 ASN THR 10 5 --> emin: 0.1 --> E_min: -2.12
+B35 B73 -2.05 5.095 ASN VAL 10 4 --> emin: 0.04 --> E_min: -2.05
+B35 B74 -2.12 5.156 ASN THR 10 5 --> emin: 0.1 --> E_min: -2.12
+B35 B76 -2.26 6.595 ASN ASN 10 10 --> emin: 0.22 --> E_min: -2.26
+B36 B74 -2.7 7.455 SER THR 2 5 --> emin: 0.58 --> E_min: -2.7
+B36 B76 -2.16 4.741 SER ASN 2 10 --> emin: 0.13 --> E_min: -2.16
+B36 B87 -2.22 6.938 SER ASP 2 9 --> emin: 0.18 --> E_min: -2.22
+B39 B43 -2.1 6.971 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B39 B61 -2.1 5.196 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B39 B63 -2.1 5.615 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B39 B67 -2.05 7.949 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
+B39 B73 -2.1 5.765 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B43 B59 -2.65 6.095 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+B43 B60 -2.65 7.5 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+B43 B61 -2.86 5.593 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B44 B60 -2.3 5.395 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
+B44 B62 -2.0 7.463 HSD THR 16 5 --> emin: 0.0 --> E_min: -2.0
+B45 B57 -2.05 5.598 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
+B45 B58 -2.7 7.676 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B45 B59 -2.7 3.661 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B46 B57 -2.74 7.756 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
+B46 B58 -2.01 4.604 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
+B46 B59 -2.01 7.208 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
+B46 B60 -2.01 5.874 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
+B47 B57 -2.08 7.082 PRO LEU 7 11 --> emin: -0.07 --> E_min: -2.08
+B48 B55 -2.24 5.168 ALA TYR 1 18 --> emin: 0.2 --> E_min: -2.24
+B48 B56 -2.06 7.105 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
+B48 B57 -2.08 4.25 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
+B49 B56 -2.82 6.617 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B50 B54 -2.1 7.862 LEU LEU 11 11 --> emin: -0.08 --> E_min: -2.1
+B50 B55 -2.19 4.237 LEU TYR 11 18 --> emin: 0.16 --> E_min: -2.19
+B51 B56 -2.0 5.193 GLN THR 14 5 --> emin: 0.0 --> E_min: -2.0
+B59 B75 -2.44 6.816 SER CYS 2 3 --> emin: 0.37 --> E_min: -2.44
+B61 B73 -2.86 5.931 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B63 B67 -2.82 5.101 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B63 B68 -2.49 7.206 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
+B63 B73 -2.86 5.447 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B66 B70 -2.72 7.338 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
+B67 B71 -2.0 6.167 THR GLU 5 13 --> emin: 0.0 --> E_min: -2.0
+B67 B73 -2.82 7.633 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+B68 B73 -2.49 6.28 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+B68 B90 -2.46 6.569 TRP ILE 19 6 --> emin: 0.38 --> E_min: -2.46
+B68 B92 -2.31 5.357 TRP PRO 19 7 --> emin: 0.26 --> E_min: -2.31
+B69 B92 -2.18 5.291 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
+B72 B89 -2.02 4.472 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
+B73 B89 -2.47 7.931 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+B73 B90 -2.56 5.874 VAL ILE 4 6 --> emin: -0.47 --> E_min: -2.56
+B74 B87 -2.12 5.46 THR ASP 5 9 --> emin: 0.1 --> E_min: -2.12
+B74 B89 -2.02 5.972 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
+B74 B90 -2.34 7.546 THR ILE 5 6 --> emin: 0.28 --> E_min: -2.34
+B75 B86 -2.61 7.627 CYS VAL 3 4 --> emin: -0.51 --> E_min: -2.61
+B75 B87 -2.31 7.669 CYS ASP 3 9 --> emin: -0.26 --> E_min: -2.31
+B75 B88 -2.34 6.668 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
+B75 B90 -2.59 6.96 CYS ILE 3 6 --> emin: -0.49 --> E_min: -2.59
+B76 B85 -2.05 7.676 ASN LYS 10 12 --> emin: -0.04 --> E_min: -2.05
+B76 B87 -2.17 4.538 ASN ASP 10 9 --> emin: 0.14 --> E_min: -2.17
+B77 B86 -2.86 5.311 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B77 B88 -2.47 7.942 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+B78 B84 -2.06 7.606 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
+B78 B85 -2.29 4.923 ALA LYS 1 12 --> emin: 0.24 --> E_min: -2.29
+B79 B84 -2.0 5.664 HSD THR 16 5 --> emin: 0.0 --> E_min: -2.0
 
 Detailed version of NBFIX section between atoms of CB and CA :
 
-B1 A26 -2.0 6.375 0 THR PHE --> emin: 0.0 --> E_min: -2.0
-B1 A27 -2.2 5.745 1 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
-B1 A81 -2.06 5.584 1 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
-B1 A82 -2.7 5.794 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B2 A24 -2.73 6.353 1 THR GLY 5 0 --> emin: 0.61 --> E_min: -2.73
-B2 A25 -2.0 4.802 0 THR TYR --> emin: 0.0 --> E_min: -2.0
-B2 A26 -2.0 5.206 0 THR PHE --> emin: 0.0 --> E_min: -2.0
-B2 A54 -2.05 6.934 1 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
-B3 A25 -2.14 6.509 1 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
-B3 A82 -2.3 6.578 1 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
-B3 A84 -2.2 7.026 1 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
-B4 A22 -2.22 6.045 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B4 A23 -2.16 6.544 1 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
-B4 A24 -2.6 6.738 1 PRO GLY 7 0 --> emin: 0.5 --> E_min: -2.6
-B4 A25 -2.14 4.726 1 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
-B4 A26 -2.3 7.883 1 PRO PHE 7 17 --> emin: 0.25 --> E_min: -2.3
-B4 A30 -2.22 7.549 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B4 A77 -2.22 7.38 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B4 A78 -2.58 7.271 1 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
-B4 A79 -1.37 5.688 -1 PRO HSD --> emin: -0.05 --> E_min_rep: -1.37
-B4 A84 -2.2 6.942 1 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
-B5 A22 -2.65 6.951 1 SER VAL 2 4 --> emin: 0.54 --> E_min: -2.65
-B5 A23 -2.11 5.653 1 SER LYS 2 12 --> emin: 0.09 --> E_min: -2.11
-B5 A24 -2.78 6.392 1 SER GLY 2 0 --> emin: 0.65 --> E_min: -2.78
-B5 A25 -2.12 7.791 1 SER TYR 2 18 --> emin: 0.1 --> E_min: -2.12
-B6 A20 -1.74 6.664 -1 VAL CYS --> emin: -0.51 --> E_min_rep: -1.74
-B6 A21 -1.4 6.174 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-B6 A22 -1.91 5.166 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B6 A23 -2.47 7.813 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-B6 A75 -1.74 6.995 -1 VAL CYS --> emin: -0.51 --> E_min_rep: -1.74
-B6 A76 -2.05 7.27 1 VAL ASN 4 10 --> emin: 0.04 --> E_min: -2.05
-B6 A77 -1.91 5.67 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B6 A86 -1.91 5.785 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B6 A87 -1.64 6.596 -1 VAL ASP --> emin: -0.38 --> E_min_rep: -1.64
-B6 A88 -2.47 5.783 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-B7 A21 -2.19 6.503 1 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
-B7 A22 -2.19 7.076 1 TYR VAL 18 4 --> emin: 0.16 --> E_min: -2.19
-B7 A23 -2.46 6.518 1 TYR LYS 18 12 --> emin: 0.38 --> E_min: -2.46
-B8 A20 -1.49 7.034 -1 PRO CYS --> emin: -0.19 --> E_min_rep: -1.49
-B8 A21 -1.39 7.895 -1 PRO LEU --> emin: -0.07 --> E_min_rep: -1.39
-B8 A88 -2.16 6.093 1 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
-B8 A89 -2.16 6.628 1 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
-B8 A90 -2.23 5.504 1 PRO ILE 7 6 --> emin: 0.19 --> E_min: -2.23
-B8 A91 -2.22 7.177 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B9 A18 -1.4 6.659 -1 LEU LEU --> emin: -0.08 --> E_min_rep: -1.4
-B9 A19 -1.34 4.541 -1 LEU GLY --> emin: -0.01 --> E_min_rep: -1.34
-B9 A20 -1.48 4.503 -1 LEU CYS --> emin: -0.18 --> E_min_rep: -1.48
-B9 A21 -1.4 5.283 -1 LEU LEU --> emin: -0.08 --> E_min_rep: -1.4
-B9 A58 -2.17 7.39 1 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
-B10 A18 -2.08 6.077 1 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
-B10 A19 -2.74 7.883 1 ALA GLY 1 0 --> emin: 0.62 --> E_min: -2.74
-B10 A90 -2.18 5.456 1 ALA ILE 1 6 --> emin: 0.15 --> E_min: -2.18
-B10 A91 -2.1 5.257 1 ALA VAL 1 4 --> emin: 0.08 --> E_min: -2.1
-B10 A92 -2.58 4.948 1 ALA PRO 1 7 --> emin: 0.48 --> E_min: -2.58
-B10 A93 -2.32 6.41 1 ALA ARG 1 15 --> emin: 0.27 --> E_min: -2.32
-B11 A16 -2.22 6.82 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B11 A17 -2.2 6.051 1 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
-B11 A18 -1.39 5.546 -1 PRO LEU --> emin: -0.07 --> E_min_rep: -1.39
-B14 A65 -2.72 7.319 1 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
-B15 A65 -2.17 7.798 1 MET SER 8 2 --> emin: 0.14 --> E_min: -2.17
-B16 A62 -1.88 6.816 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B16 A63 -1.91 6.533 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B16 A64 -1.88 6.767 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B16 A65 -2.65 5.253 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-B16 A68 -2.49 6.581 1 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
-B17 A60 -2.7 6.265 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B17 A61 -1.88 5.959 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-B17 A62 -2.36 4.55 1 THR THR 5 5 --> emin: 0.3 --> E_min: -2.36
-B17 A63 -1.88 7.528 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-B18 A60 -2.17 7.398 1 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
-B18 A61 -1.4 5.902 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B18 A62 -2.05 6.425 1 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
-B18 A63 -1.4 6.789 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B18 A68 -2.44 6.804 1 LEU TRP 11 19 --> emin: 0.37 --> E_min: -2.44
-B18 A73 -1.4 6.627 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B18 A90 -2.06 6.297 1 LEU ILE 11 6 --> emin: 0.05 --> E_min: -2.06
-B20 A32 -1.74 7.449 -1 CYS VAL --> emin: -0.51 --> E_min_rep: -1.74
-B20 A34 -2.55 7.96 1 CYS TRP 3 19 --> emin: 0.46 --> E_min: -2.55
-B20 A58 -2.44 7.194 1 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
-B20 A59 -2.44 6.041 1 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
-B20 A60 -2.44 7.248 1 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
-B20 A74 -1.72 7.163 -1 CYS THR --> emin: -0.48 --> E_min_rep: -1.72
-B20 A75 -1.93 4.219 -1 CYS CYS --> emin: -0.74 --> E_min_rep: -1.93
-B20 A76 -1.41 6.916 -1 CYS ASN --> emin: -0.09 --> E_min_rep: -1.41
-B20 A77 -1.74 7.382 -1 CYS VAL --> emin: -0.51 --> E_min_rep: -1.74
-B20 A88 -2.34 6.516 1 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
-B20 A90 -1.73 7.532 -1 CYS ILE --> emin: -0.49 --> E_min_rep: -1.73
-B21 A56 -2.05 7.068 1 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
-B21 A57 -1.4 6.667 -1 LEU LEU --> emin: -0.08 --> E_min_rep: -1.4
-B21 A58 -2.17 5.829 1 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
-B22 A30 -1.91 7.002 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B22 A32 -1.91 7.495 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B22 A56 -1.88 6.42 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B22 A57 -1.4 5.733 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-B22 A58 -2.65 6.765 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-B22 A77 -1.91 6.283 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B23 A55 -2.46 7.909 1 LYS TYR 12 18 --> emin: 0.38 --> E_min: -2.46
-B23 A56 -2.02 5.887 1 LYS THR 12 5 --> emin: 0.02 --> E_min: -2.02
-B25 A29 -2.14 6.971 1 TYR PRO 18 7 --> emin: 0.12 --> E_min: -2.14
-B25 A30 -2.19 5.941 1 TYR VAL 18 4 --> emin: 0.16 --> E_min: -2.19
-B25 A48 -2.24 6.731 1 TYR ALA 18 1 --> emin: 0.2 --> E_min: -2.24
-B25 A54 -2.19 6.932 1 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
-B25 A55 -1.65 4.374 -1 TYR TYR --> emin: -0.4 --> E_min_rep: -1.65
-B25 A56 -2.0 5.197 0 TYR THR --> emin: 0.0 --> E_min: -2.0
-B25 A57 -2.19 6.388 1 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
-B25 A79 -2.31 7.654 1 TYR HSD 18 16 --> emin: 0.26 --> E_min: -2.31
-B26 A53 -2.32 6.765 1 PHE ASP 17 9 --> emin: 0.27 --> E_min: -2.32
-B26 A54 -2.74 6.108 1 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
-B26 A55 -2.13 7.653 1 PHE TYR 17 18 --> emin: 0.11 --> E_min: -2.13
-B27 A81 -2.58 5.165 1 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
-B27 A82 -2.3 7.224 1 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
-B28 A47 -2.0 7.766 0 GLU PRO --> emin: 0.0 --> E_min: -2.0
-B28 A48 -2.0 6.076 0 GLU ALA --> emin: 0.0 --> E_min: -2.0
-B28 A49 -2.0 7.664 0 GLU VAL --> emin: 0.0 --> E_min: -2.0
-B28 A50 -2.0 7.902 0 GLU LEU --> emin: 0.0 --> E_min: -2.0
-B28 A55 -27.54 7.232 1 GLU TYR 13 18 --> emin: 21.28 --> E_min: -27.54
-B29 A79 -1.37 7.179 -1 PRO HSD --> emin: -0.05 --> E_min_rep: -1.37
-B29 A80 -2.18 6.807 1 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
-B29 A81 -2.58 6.113 1 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
-B30 A57 -1.4 7.914 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-B30 A77 -1.91 6.664 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B30 A78 -2.1 6.106 1 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
-B30 A79 -2.2 5.05 1 VAL HSD 4 16 --> emin: 0.17 --> E_min: -2.2
-B30 A80 -2.22 7.932 1 VAL PRO 4 7 --> emin: 0.18 --> E_min: -2.22
-B31 A77 -1.88 6.471 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-B31 A78 -2.06 4.99 1 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
-B31 A79 -2.0 6.622 0 THR HSD --> emin: 0.0 --> E_min: -2.0
-B31 A80 -2.2 7.479 1 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
-B32 A45 -1.88 6.439 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B32 A58 -2.65 7.399 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-B32 A59 -2.65 5.606 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-B32 A75 -1.74 6.367 -1 VAL CYS --> emin: -0.51 --> E_min_rep: -1.74
-B32 A76 -2.05 5.886 1 VAL ASN 4 10 --> emin: 0.04 --> E_min: -2.05
-B32 A77 -1.91 5.031 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B32 A78 -2.1 7.581 1 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
-B33 A37 -2.73 4.205 1 THR GLY 5 0 --> emin: 0.61 --> E_min: -2.73
-B33 A38 -2.7 7.874 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B33 A40 -2.7 7.912 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B33 A75 -1.72 7.302 -1 THR CYS --> emin: -0.48 --> E_min_rep: -1.72
-B33 A76 -2.12 5.24 1 THR ASN 5 10 --> emin: 0.1 --> E_min: -2.12
-B33 A77 -1.88 7.128 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-B34 A39 -2.44 7.472 1 TRP LEU 19 11 --> emin: 0.37 --> E_min: -2.44
-B34 A43 -2.49 6.473 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-B34 A59 -2.12 6.293 1 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
-B34 A60 -2.12 5.731 1 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
-B34 A61 -2.49 4.881 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-B34 A73 -2.49 7.214 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-B34 A74 -2.0 5.847 0 TRP THR --> emin: 0.0 --> E_min: -2.0
-B34 A75 -2.55 4.369 1 TRP CYS 19 3 --> emin: 0.46 --> E_min: -2.55
-B34 A76 -1.34 7.028 -1 TRP ASN --> emin: -0.01 --> E_min_rep: -1.34
-B35 A39 -2.22 5.388 1 ASN LEU 10 11 --> emin: 0.18 --> E_min: -2.22
-B35 A72 -2.12 6.264 1 ASN THR 10 5 --> emin: 0.1 --> E_min: -2.12
-B35 A73 -2.05 4.31 1 ASN VAL 10 4 --> emin: 0.04 --> E_min: -2.05
-B35 A74 -2.12 4.702 1 ASN THR 10 5 --> emin: 0.1 --> E_min: -2.12
-B35 A75 -1.41 7.271 -1 ASN CYS --> emin: -0.09 --> E_min_rep: -1.41
-B36 A76 -2.16 7.109 1 SER ASN 2 10 --> emin: 0.13 --> E_min: -2.16
-B38 A34 -2.12 7.505 1 SER TRP 2 19 --> emin: 0.1 --> E_min: -2.12
-B39 A35 -2.22 5.782 1 LEU ASN 11 10 --> emin: 0.18 --> E_min: -2.22
-B39 A43 -1.4 7.885 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B39 A61 -1.4 6.823 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B39 A62 -2.05 7.908 1 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
-B39 A63 -1.4 6.52 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B39 A73 -1.4 6.569 -1 LEU VAL --> emin: -0.08 --> E_min_rep: -1.4
-B39 A74 -2.05 7.733 1 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
-B41 A63 -2.65 7.979 1 SER VAL 2 4 --> emin: 0.54 --> E_min: -2.65
-B43 A39 -1.4 6.653 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-B43 A59 -2.65 7.517 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-B43 A60 -2.65 6.635 1 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
-B43 A61 -1.91 5.198 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B43 A62 -1.88 7.688 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B44 A59 -2.3 7.995 1 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
-B44 A60 -2.3 6.547 1 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
-B44 A61 -2.2 7.397 1 HSD VAL 16 4 --> emin: 0.17 --> E_min: -2.2
-B45 A57 -2.05 7.736 1 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
-B45 A58 -2.7 6.555 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B45 A59 -2.7 4.452 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B45 A60 -2.7 7.273 1 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
-B46 A57 -2.74 7.773 1 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
-B46 A58 -2.01 5.726 1 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
-B46 A59 -2.01 5.811 1 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
-B46 A60 -2.01 6.768 1 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
-B47 A57 -1.39 7.875 -1 PRO LEU --> emin: -0.07 --> E_min_rep: -1.39
-B48 A55 -2.24 5.31 1 ALA TYR 1 18 --> emin: 0.2 --> E_min: -2.24
-B48 A56 -2.06 5.287 1 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
-B48 A57 -2.08 4.7 1 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
-B49 A55 -2.19 7.038 1 VAL TYR 4 18 --> emin: 0.16 --> E_min: -2.19
-B49 A56 -1.88 6.297 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B49 A57 -1.4 6.962 -1 VAL LEU --> emin: -0.08 --> E_min_rep: -1.4
-B50 A54 -1.4 5.31 -1 LEU LEU --> emin: -0.08 --> E_min_rep: -1.4
-B50 A55 -2.19 5.284 1 LEU TYR 11 18 --> emin: 0.16 --> E_min: -2.19
-B51 A55 -1.49 5.589 -1 GLN TYR --> emin: -0.2 --> E_min_rep: -1.49
-B51 A56 -2.0 6.138 0 GLN THR --> emin: 0.0 --> E_min: -2.0
-B55 A50 -2.19 4.791 1 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
-B55 A51 -1.49 7.963 -1 TYR GLN --> emin: -0.2 --> E_min_rep: -1.49
-B56 A51 -2.0 6.113 0 THR GLN --> emin: 0.0 --> E_min: -2.0
-B59 A75 -2.44 7.515 1 SER CYS 2 3 --> emin: 0.37 --> E_min: -2.44
-B61 A73 -1.91 7.551 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B63 A67 -1.88 6.134 -1 VAL THR --> emin: -0.68 --> E_min_rep: -1.88
-B63 A68 -2.49 5.489 1 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
-B63 A73 -1.91 7.237 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B64 A68 -2.0 7.543 0 THR TRP --> emin: 0.0 --> E_min: -2.0
-B67 A63 -1.88 5.969 -1 THR VAL --> emin: -0.68 --> E_min_rep: -1.88
-B67 A71 -2.0 6.1 0 THR GLU --> emin: 0.0 --> E_min: -2.0
-B68 A73 -2.49 7.314 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-B68 A90 -2.46 6.719 1 TRP ILE 19 6 --> emin: 0.38 --> E_min: -2.46
-B68 A91 -2.49 6.253 1 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
-B68 A92 -2.31 5.519 1 TRP PRO 19 7 --> emin: 0.26 --> E_min: -2.31
-B69 A65 -2.3 7.014 1 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
-B69 A91 -2.22 7.982 1 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
-B69 A92 -2.18 6.385 1 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
-B70 A66 -2.72 6.011 1 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
-B71 A67 -2.0 6.355 0 GLU THR --> emin: 0.0 --> E_min: -2.0
-B72 A89 -2.02 6.855 1 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
-B73 A68 -2.49 5.87 1 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
-B73 A69 -2.22 7.837 1 VAL PRO 4 7 --> emin: 0.18 --> E_min: -2.22
-B73 A89 -2.47 7.379 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-B73 A90 -1.71 6.138 -1 VAL ILE --> emin: -0.47 --> E_min_rep: -1.71
-B74 A87 -2.12 5.6 1 THR ASP 5 9 --> emin: 0.1 --> E_min: -2.12
-B74 A88 -2.02 5.542 1 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
-B74 A89 -2.02 4.497 1 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
-B74 A90 -2.34 6.882 1 THR ILE 5 6 --> emin: 0.28 --> E_min: -2.34
-B75 A86 -1.74 7.693 -1 CYS VAL --> emin: -0.51 --> E_min_rep: -1.74
-B75 A87 -1.54 6.25 -1 CYS ASP --> emin: -0.26 --> E_min_rep: -1.54
-B75 A88 -2.34 5.205 1 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
-B75 A89 -2.34 7.302 1 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
-B75 A90 -1.73 7.769 -1 CYS ILE --> emin: -0.49 --> E_min_rep: -1.73
-B76 A86 -2.05 7.739 1 ASN VAL 10 4 --> emin: 0.04 --> E_min: -2.05
-B76 A87 -2.17 5.675 1 ASN ASP 10 9 --> emin: 0.14 --> E_min: -2.17
-B76 A88 -1.37 7.731 -1 ASN LYS --> emin: -0.04 --> E_min_rep: -1.37
-B77 A85 -2.47 6.643 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-B77 A86 -1.91 5.524 -1 VAL VAL --> emin: -0.72 --> E_min_rep: -1.91
-B77 A87 -1.64 6.953 -1 VAL ASP --> emin: -0.38 --> E_min_rep: -1.64
-B77 A88 -2.47 7.94 1 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
-B78 A83 -2.17 7.938 1 ALA SER 1 2 --> emin: 0.14 --> E_min: -2.17
-B78 A84 -2.06 6.566 1 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
-B78 A85 -2.29 4.971 1 ALA LYS 1 12 --> emin: 0.24 --> E_min: -2.29
-B78 A86 -2.1 7.229 1 ALA VAL 1 4 --> emin: 0.08 --> E_min: -2.1
-B79 A83 -2.3 7.194 1 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
-B79 A84 -2.0 6.497 0 HSD THR --> emin: 0.0 --> E_min: -2.0
-B80 A84 -2.2 7.518 1 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
-B83 A79 -2.3 7.731 1 SER HSD 2 16 --> emin: 0.25 --> E_min: -2.3
-B84 A79 -2.0 5.037 0 THR HSD --> emin: 0.0 --> E_min: -2.0
-B84 A80 -2.2 7.05 1 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
+i counter for CB atoms and j counters for CA atoms started counting from 0...
+
+Expected values of counter i:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87] 
+
+
+Expected values of counter j:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92] 
+
+B1 A26 -2.0 6.375 THR PHE 5 17 --> emin: 0.0 --> E_min: -2.0
+B1 A27 -2.2 5.745 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
+B1 A81 -2.06 5.584 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
+B1 A82 -2.7 5.794 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B2 A24 -2.73 6.353 THR GLY 5 0 --> emin: 0.61 --> E_min: -2.73
+B2 A25 -2.0 4.802 THR TYR 5 18 --> emin: 0.0 --> E_min: -2.0
+B2 A26 -2.0 5.206 THR PHE 5 17 --> emin: 0.0 --> E_min: -2.0
+B2 A54 -2.05 6.934 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
+B3 A25 -2.14 6.509 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
+B3 A82 -2.3 6.578 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
+B3 A84 -2.2 7.026 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
+B4 A22 -2.22 6.045 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B4 A23 -2.16 6.544 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
+B4 A24 -2.6 6.738 PRO GLY 7 0 --> emin: 0.5 --> E_min: -2.6
+B4 A25 -2.14 4.726 PRO TYR 7 18 --> emin: 0.12 --> E_min: -2.14
+B4 A26 -2.3 7.883 PRO PHE 7 17 --> emin: 0.25 --> E_min: -2.3
+B4 A30 -2.22 7.549 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B4 A77 -2.22 7.38 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B4 A78 -2.58 7.271 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
+B4 A79 -2.06 5.688 PRO HSD 7 16 --> emin: -0.05 --> E_min: -2.06
+B4 A84 -2.2 6.942 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
+B5 A22 -2.65 6.951 SER VAL 2 4 --> emin: 0.54 --> E_min: -2.65
+B5 A23 -2.11 5.653 SER LYS 2 12 --> emin: 0.09 --> E_min: -2.11
+B5 A24 -2.78 6.392 SER GLY 2 0 --> emin: 0.65 --> E_min: -2.78
+B5 A25 -2.12 7.791 SER TYR 2 18 --> emin: 0.1 --> E_min: -2.12
+B6 A20 -2.61 6.664 VAL CYS 4 3 --> emin: -0.51 --> E_min: -2.61
+B6 A21 -2.1 6.174 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+B6 A22 -2.86 5.166 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B6 A23 -2.47 7.813 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+B6 A75 -2.61 6.995 VAL CYS 4 3 --> emin: -0.51 --> E_min: -2.61
+B6 A76 -2.05 7.27 VAL ASN 4 10 --> emin: 0.04 --> E_min: -2.05
+B6 A77 -2.86 5.67 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B6 A86 -2.86 5.785 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B6 A87 -2.46 6.596 VAL ASP 4 9 --> emin: -0.38 --> E_min: -2.46
+B6 A88 -2.47 5.783 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+B7 A21 -2.19 6.503 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
+B7 A22 -2.19 7.076 TYR VAL 18 4 --> emin: 0.16 --> E_min: -2.19
+B7 A23 -2.46 6.518 TYR LYS 18 12 --> emin: 0.38 --> E_min: -2.46
+B8 A20 -2.23 7.034 PRO CYS 7 3 --> emin: -0.19 --> E_min: -2.23
+B8 A21 -2.08 7.895 PRO LEU 7 11 --> emin: -0.07 --> E_min: -2.08
+B8 A88 -2.16 6.093 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
+B8 A89 -2.16 6.628 PRO LYS 7 12 --> emin: 0.13 --> E_min: -2.16
+B8 A90 -2.23 5.504 PRO ILE 7 6 --> emin: 0.19 --> E_min: -2.23
+B8 A91 -2.22 7.177 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B9 A18 -2.1 6.659 LEU LEU 11 11 --> emin: -0.08 --> E_min: -2.1
+B9 A19 -2.01 4.541 LEU GLY 11 0 --> emin: -0.01 --> E_min: -2.01
+B9 A20 -2.22 4.503 LEU CYS 11 3 --> emin: -0.18 --> E_min: -2.22
+B9 A21 -2.1 5.283 LEU LEU 11 11 --> emin: -0.08 --> E_min: -2.1
+B9 A58 -2.17 7.39 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
+B10 A18 -2.08 6.077 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
+B10 A19 -2.74 7.883 ALA GLY 1 0 --> emin: 0.62 --> E_min: -2.74
+B10 A90 -2.18 5.456 ALA ILE 1 6 --> emin: 0.15 --> E_min: -2.18
+B10 A91 -2.1 5.257 ALA VAL 1 4 --> emin: 0.08 --> E_min: -2.1
+B10 A92 -2.58 4.948 ALA PRO 1 7 --> emin: 0.48 --> E_min: -2.58
+B10 A93 -2.32 6.41 ALA ARG 1 15 --> emin: 0.27 --> E_min: -2.32
+B11 A16 -2.22 6.82 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B11 A17 -2.2 6.051 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
+B11 A18 -2.08 5.546 PRO LEU 7 11 --> emin: -0.07 --> E_min: -2.08
+B14 A65 -2.72 7.319 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
+B15 A65 -2.17 7.798 MET SER 8 2 --> emin: 0.14 --> E_min: -2.17
+B16 A62 -2.82 6.816 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B16 A63 -2.86 6.533 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B16 A64 -2.82 6.767 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B16 A65 -2.65 5.253 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+B16 A68 -2.49 6.581 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
+B17 A60 -2.7 6.265 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B17 A61 -2.82 5.959 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+B17 A62 -2.36 4.55 THR THR 5 5 --> emin: 0.3 --> E_min: -2.36
+B17 A63 -2.82 7.528 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+B18 A60 -2.17 7.398 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
+B18 A61 -2.1 5.902 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B18 A62 -2.05 6.425 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
+B18 A63 -2.1 6.789 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B18 A68 -2.44 6.804 LEU TRP 11 19 --> emin: 0.37 --> E_min: -2.44
+B18 A73 -2.1 6.627 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B18 A90 -2.06 6.297 LEU ILE 11 6 --> emin: 0.05 --> E_min: -2.06
+B20 A32 -2.61 7.449 CYS VAL 3 4 --> emin: -0.51 --> E_min: -2.61
+B20 A34 -2.55 7.96 CYS TRP 3 19 --> emin: 0.46 --> E_min: -2.55
+B20 A58 -2.44 7.194 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
+B20 A59 -2.44 6.041 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
+B20 A60 -2.44 7.248 CYS SER 3 2 --> emin: 0.37 --> E_min: -2.44
+B20 A74 -2.58 7.163 CYS THR 3 5 --> emin: -0.48 --> E_min: -2.58
+B20 A75 -2.89 4.219 CYS CYS 3 3 --> emin: -0.74 --> E_min: -2.89
+B20 A76 -2.11 6.916 CYS ASN 3 10 --> emin: -0.09 --> E_min: -2.11
+B20 A77 -2.61 7.382 CYS VAL 3 4 --> emin: -0.51 --> E_min: -2.61
+B20 A88 -2.34 6.516 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
+B20 A90 -2.59 7.532 CYS ILE 3 6 --> emin: -0.49 --> E_min: -2.59
+B21 A56 -2.05 7.068 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
+B21 A57 -2.1 6.667 LEU LEU 11 11 --> emin: -0.08 --> E_min: -2.1
+B21 A58 -2.17 5.829 LEU SER 11 2 --> emin: 0.14 --> E_min: -2.17
+B22 A30 -2.86 7.002 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B22 A32 -2.86 7.495 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B22 A56 -2.82 6.42 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B22 A57 -2.1 5.733 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+B22 A58 -2.65 6.765 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+B22 A77 -2.86 6.283 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B23 A55 -2.46 7.909 LYS TYR 12 18 --> emin: 0.38 --> E_min: -2.46
+B23 A56 -2.02 5.887 LYS THR 12 5 --> emin: 0.02 --> E_min: -2.02
+B25 A29 -2.14 6.971 TYR PRO 18 7 --> emin: 0.12 --> E_min: -2.14
+B25 A30 -2.19 5.941 TYR VAL 18 4 --> emin: 0.16 --> E_min: -2.19
+B25 A48 -2.24 6.731 TYR ALA 18 1 --> emin: 0.2 --> E_min: -2.24
+B25 A54 -2.19 6.932 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
+B25 A55 -2.48 4.374 TYR TYR 18 18 --> emin: -0.4 --> E_min: -2.48
+B25 A56 -2.0 5.197 TYR THR 18 5 --> emin: 0.0 --> E_min: -2.0
+B25 A57 -2.19 6.388 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
+B25 A79 -2.31 7.654 TYR HSD 18 16 --> emin: 0.26 --> E_min: -2.31
+B26 A53 -2.32 6.765 PHE ASP 17 9 --> emin: 0.27 --> E_min: -2.32
+B26 A54 -2.74 6.108 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
+B26 A55 -2.13 7.653 PHE TYR 17 18 --> emin: 0.11 --> E_min: -2.13
+B27 A81 -2.58 5.165 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
+B27 A82 -2.3 7.224 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
+B28 A47 -2.0 7.766 GLU PRO 13 7 --> emin: 0.0 --> E_min: -2.0
+B28 A48 -2.0 6.076 GLU ALA 13 1 --> emin: 0.0 --> E_min: -2.0
+B28 A49 -2.0 7.664 GLU VAL 13 4 --> emin: 0.0 --> E_min: -2.0
+B28 A50 -2.0 7.902 GLU LEU 13 11 --> emin: 0.0 --> E_min: -2.0
+B28 A55 -3.54 7.232 GLU TYR 13 18 --> emin: -1.28 --> E_min: -3.54
+B29 A79 -2.06 7.179 PRO HSD 7 16 --> emin: -0.05 --> E_min: -2.06
+B29 A80 -2.18 6.807 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
+B29 A81 -2.58 6.113 PRO ALA 7 1 --> emin: 0.48 --> E_min: -2.58
+B30 A57 -2.1 7.914 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+B30 A77 -2.86 6.664 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B30 A78 -2.1 6.106 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
+B30 A79 -2.2 5.05 VAL HSD 4 16 --> emin: 0.17 --> E_min: -2.2
+B30 A80 -2.22 7.932 VAL PRO 4 7 --> emin: 0.18 --> E_min: -2.22
+B31 A77 -2.82 6.471 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+B31 A78 -2.06 4.99 THR ALA 5 1 --> emin: 0.05 --> E_min: -2.06
+B31 A79 -2.0 6.622 THR HSD 5 16 --> emin: 0.0 --> E_min: -2.0
+B31 A80 -2.2 7.479 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2
+B32 A45 -2.82 6.439 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B32 A58 -2.65 7.399 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+B32 A59 -2.65 5.606 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+B32 A75 -2.61 6.367 VAL CYS 4 3 --> emin: -0.51 --> E_min: -2.61
+B32 A76 -2.05 5.886 VAL ASN 4 10 --> emin: 0.04 --> E_min: -2.05
+B32 A77 -2.86 5.031 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B32 A78 -2.1 7.581 VAL ALA 4 1 --> emin: 0.08 --> E_min: -2.1
+B33 A37 -2.73 4.205 THR GLY 5 0 --> emin: 0.61 --> E_min: -2.73
+B33 A38 -2.7 7.874 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B33 A40 -2.7 7.912 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B33 A75 -2.58 7.302 THR CYS 5 3 --> emin: -0.48 --> E_min: -2.58
+B33 A76 -2.12 5.24 THR ASN 5 10 --> emin: 0.1 --> E_min: -2.12
+B33 A77 -2.82 7.128 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+B34 A39 -2.44 7.472 TRP LEU 19 11 --> emin: 0.37 --> E_min: -2.44
+B34 A43 -2.49 6.473 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+B34 A59 -2.12 6.293 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
+B34 A60 -2.12 5.731 TRP SER 19 2 --> emin: 0.1 --> E_min: -2.12
+B34 A61 -2.49 4.881 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+B34 A73 -2.49 7.214 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+B34 A74 -2.0 5.847 TRP THR 19 5 --> emin: 0.0 --> E_min: -2.0
+B34 A75 -2.55 4.369 TRP CYS 19 3 --> emin: 0.46 --> E_min: -2.55
+B34 A76 -2.01 7.028 TRP ASN 19 10 --> emin: -0.01 --> E_min: -2.01
+B35 A39 -2.22 5.388 ASN LEU 10 11 --> emin: 0.18 --> E_min: -2.22
+B35 A72 -2.12 6.264 ASN THR 10 5 --> emin: 0.1 --> E_min: -2.12
+B35 A73 -2.05 4.31 ASN VAL 10 4 --> emin: 0.04 --> E_min: -2.05
+B35 A74 -2.12 4.702 ASN THR 10 5 --> emin: 0.1 --> E_min: -2.12
+B35 A75 -2.11 7.271 ASN CYS 10 3 --> emin: -0.09 --> E_min: -2.11
+B36 A76 -2.16 7.109 SER ASN 2 10 --> emin: 0.13 --> E_min: -2.16
+B38 A34 -2.12 7.505 SER TRP 2 19 --> emin: 0.1 --> E_min: -2.12
+B39 A35 -2.22 5.782 LEU ASN 11 10 --> emin: 0.18 --> E_min: -2.22
+B39 A43 -2.1 7.885 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B39 A61 -2.1 6.823 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B39 A62 -2.05 7.908 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
+B39 A63 -2.1 6.52 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B39 A73 -2.1 6.569 LEU VAL 11 4 --> emin: -0.08 --> E_min: -2.1
+B39 A74 -2.05 7.733 LEU THR 11 5 --> emin: 0.04 --> E_min: -2.05
+B41 A63 -2.65 7.979 SER VAL 2 4 --> emin: 0.54 --> E_min: -2.65
+B43 A39 -2.1 6.653 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+B43 A59 -2.65 7.517 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+B43 A60 -2.65 6.635 VAL SER 4 2 --> emin: 0.54 --> E_min: -2.65
+B43 A61 -2.86 5.198 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B43 A62 -2.82 7.688 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B44 A59 -2.3 7.995 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
+B44 A60 -2.3 6.547 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
+B44 A61 -2.2 7.397 HSD VAL 16 4 --> emin: 0.17 --> E_min: -2.2
+B45 A57 -2.05 7.736 THR LEU 5 11 --> emin: 0.04 --> E_min: -2.05
+B45 A58 -2.7 6.555 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B45 A59 -2.7 4.452 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B45 A60 -2.7 7.273 THR SER 5 2 --> emin: 0.58 --> E_min: -2.7
+B46 A57 -2.74 7.773 PHE LEU 17 11 --> emin: 0.62 --> E_min: -2.74
+B46 A58 -2.01 5.726 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
+B46 A59 -2.01 5.811 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
+B46 A60 -2.01 6.768 PHE SER 17 2 --> emin: 0.01 --> E_min: -2.01
+B47 A57 -2.08 7.875 PRO LEU 7 11 --> emin: -0.07 --> E_min: -2.08
+B48 A55 -2.24 5.31 ALA TYR 1 18 --> emin: 0.2 --> E_min: -2.24
+B48 A56 -2.06 5.287 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
+B48 A57 -2.08 4.7 ALA LEU 1 11 --> emin: 0.07 --> E_min: -2.08
+B49 A55 -2.19 7.038 VAL TYR 4 18 --> emin: 0.16 --> E_min: -2.19
+B49 A56 -2.82 6.297 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B49 A57 -2.1 6.962 VAL LEU 4 11 --> emin: -0.08 --> E_min: -2.1
+B50 A54 -2.1 5.31 LEU LEU 11 11 --> emin: -0.08 --> E_min: -2.1
+B50 A55 -2.19 5.284 LEU TYR 11 18 --> emin: 0.16 --> E_min: -2.19
+B51 A55 -2.24 5.589 GLN TYR 14 18 --> emin: -0.2 --> E_min: -2.24
+B51 A56 -2.0 6.138 GLN THR 14 5 --> emin: 0.0 --> E_min: -2.0
+B55 A50 -2.19 4.791 TYR LEU 18 11 --> emin: 0.16 --> E_min: -2.19
+B55 A51 -2.24 7.963 TYR GLN 18 14 --> emin: -0.2 --> E_min: -2.24
+B56 A51 -2.0 6.113 THR GLN 5 14 --> emin: 0.0 --> E_min: -2.0
+B59 A75 -2.44 7.515 SER CYS 2 3 --> emin: 0.37 --> E_min: -2.44
+B61 A73 -2.86 7.551 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B63 A67 -2.82 6.134 VAL THR 4 5 --> emin: -0.68 --> E_min: -2.82
+B63 A68 -2.49 5.489 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
+B63 A73 -2.86 7.237 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B64 A68 -2.0 7.543 THR TRP 5 19 --> emin: 0.0 --> E_min: -2.0
+B67 A63 -2.82 5.969 THR VAL 5 4 --> emin: -0.68 --> E_min: -2.82
+B67 A71 -2.0 6.1 THR GLU 5 13 --> emin: 0.0 --> E_min: -2.0
+B68 A73 -2.49 7.314 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+B68 A90 -2.46 6.719 TRP ILE 19 6 --> emin: 0.38 --> E_min: -2.46
+B68 A91 -2.49 6.253 TRP VAL 19 4 --> emin: 0.41 --> E_min: -2.49
+B68 A92 -2.31 5.519 TRP PRO 19 7 --> emin: 0.26 --> E_min: -2.31
+B69 A65 -2.3 7.014 PRO SER 7 2 --> emin: 0.25 --> E_min: -2.3
+B69 A91 -2.22 7.982 PRO VAL 7 4 --> emin: 0.18 --> E_min: -2.22
+B69 A92 -2.18 6.385 PRO PRO 7 7 --> emin: 0.15 --> E_min: -2.18
+B70 A66 -2.72 6.011 SER SER 2 2 --> emin: 0.6 --> E_min: -2.72
+B71 A67 -2.0 6.355 GLU THR 13 5 --> emin: 0.0 --> E_min: -2.0
+B72 A89 -2.02 6.855 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
+B73 A68 -2.49 5.87 VAL TRP 4 19 --> emin: 0.41 --> E_min: -2.49
+B73 A69 -2.22 7.837 VAL PRO 4 7 --> emin: 0.18 --> E_min: -2.22
+B73 A89 -2.47 7.379 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+B73 A90 -2.56 6.138 VAL ILE 4 6 --> emin: -0.47 --> E_min: -2.56
+B74 A87 -2.12 5.6 THR ASP 5 9 --> emin: 0.1 --> E_min: -2.12
+B74 A88 -2.02 5.542 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
+B74 A89 -2.02 4.497 THR LYS 5 12 --> emin: 0.02 --> E_min: -2.02
+B74 A90 -2.34 6.882 THR ILE 5 6 --> emin: 0.28 --> E_min: -2.34
+B75 A86 -2.61 7.693 CYS VAL 3 4 --> emin: -0.51 --> E_min: -2.61
+B75 A87 -2.31 6.25 CYS ASP 3 9 --> emin: -0.26 --> E_min: -2.31
+B75 A88 -2.34 5.205 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
+B75 A89 -2.34 7.302 CYS LYS 3 12 --> emin: 0.28 --> E_min: -2.34
+B75 A90 -2.59 7.769 CYS ILE 3 6 --> emin: -0.49 --> E_min: -2.59
+B76 A86 -2.05 7.739 ASN VAL 10 4 --> emin: 0.04 --> E_min: -2.05
+B76 A87 -2.17 5.675 ASN ASP 10 9 --> emin: 0.14 --> E_min: -2.17
+B76 A88 -2.05 7.731 ASN LYS 10 12 --> emin: -0.04 --> E_min: -2.05
+B77 A85 -2.47 6.643 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+B77 A86 -2.86 5.524 VAL VAL 4 4 --> emin: -0.72 --> E_min: -2.86
+B77 A87 -2.46 6.953 VAL ASP 4 9 --> emin: -0.38 --> E_min: -2.46
+B77 A88 -2.47 7.94 VAL LYS 4 12 --> emin: 0.39 --> E_min: -2.47
+B78 A83 -2.17 7.938 ALA SER 1 2 --> emin: 0.14 --> E_min: -2.17
+B78 A84 -2.06 6.566 ALA THR 1 5 --> emin: 0.05 --> E_min: -2.06
+B78 A85 -2.29 4.971 ALA LYS 1 12 --> emin: 0.24 --> E_min: -2.29
+B78 A86 -2.1 7.229 ALA VAL 1 4 --> emin: 0.08 --> E_min: -2.1
+B79 A83 -2.3 7.194 HSD SER 16 2 --> emin: 0.25 --> E_min: -2.3
+B79 A84 -2.0 6.497 HSD THR 16 5 --> emin: 0.0 --> E_min: -2.0
+B80 A84 -2.2 7.518 PRO THR 7 5 --> emin: 0.17 --> E_min: -2.2
+B83 A79 -2.3 7.731 SER HSD 2 16 --> emin: 0.25 --> E_min: -2.3
+B84 A79 -2.0 5.037 THR HSD 5 16 --> emin: 0.0 --> E_min: -2.0
+B84 A80 -2.2 7.05 THR PRO 5 7 --> emin: 0.17 --> E_min: -2.2

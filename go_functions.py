@@ -80,8 +80,13 @@ def writenbfix(array1,array2,statpot,cutoff,nbfix,reportfile):
 
  for i in range(len(array1)):
    for j in range(i, len(array2)):
+      
+       if (i==0 and j==0):     #Writing some reports to report file just to make sure everything is okay!!!
+          print >> reportfile, "i counter for",  array1[0][2],  "atoms and j counters for",  array2[0][2], "atoms started counting from 0..."
+          print >> reportfile, "\nExpected values of counter i:\n", range(len(array1)), "\n"
+          print >> reportfile, "\nExpected values of counter j:\n", range(len(array2)), "\n"
+          
        m=int(array1[i][0]);n=int(array2[j][0]) 
-
        if abs(m-n)>3: 
             dist= math.sqrt(math.pow(float(array1[i][3])-float(array2[j][3]),2) + \
                             math.pow(float(array1[i][4])-float(array2[j][4]),2) + \
@@ -93,17 +98,18 @@ def writenbfix(array1,array2,statpot,cutoff,nbfix,reportfile):
               e_min_rep = round(e_min*(2./3.),2);
               dist = round(dist,3);
 
-              if s>0: print >> nbfix, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min, dist,'1'
-              elif s<0: print >> nbfix, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min_rep, dist,'-1'
-              else: print >> nbfix, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min, dist,'0'
+              print >> nbfix, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min, dist
+#              elif s<0: print >> nbfix, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min_rep, dist,'-1'
+#              else: print >> nbfix, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min, dist,'0'
               
              #Writing a report of NBFIX section!
-              if s>0: print >> reportfile, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min, dist,'1', \
+
+              print >> reportfile, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min, dist, \
                                array1[i][1], array2[j][1], array1[i][6], array2[j][6], '--> emin:', s, '--> E_min:',e_min  
-              elif s<0: print >> reportfile, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min_rep, dist,'-1', \
-                               array1[i][1], array2[j][1],'--> emin:', s, '--> E_min_rep:', e_min_rep
-              else: print >> reportfile, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min, dist,'0',  \
-                              array1[i][1], array2[j][1], '--> emin:', s, '--> E_min:',e_min
+#              elif s<0: print >> reportfile, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min_rep, dist,'-1', \
+#                               array1[i][1], array2[j][1],'--> emin:', s, '--> E_min_rep:', e_min_rep
+#              else: print >> reportfile, array1[i][2].replace("C","")+'%i' %(m), array2[j][2].replace("C","")+'%i' %(n), e_min, dist,'0',  \
+#                              array1[i][1], array2[j][1], '--> emin:', s, '--> E_min:',e_min
 
  print "NBFIX interactios of", array1[0][2], 'and', array2[0][2], "wrote successfully!"             
 #=============================================================
